@@ -3,7 +3,6 @@ import pandas as pd
 
 def extract_meta_features(X, y):
 
-    # Convertir a DataFrame si es numpy
     if not isinstance(X, pd.DataFrame):
         X = pd.DataFrame(X)
 

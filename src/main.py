@@ -69,7 +69,6 @@ def run_experiment(dataset_name, dataset_path=None, seed=42):
     mlflow.log_param("dataset", dataset_name)
     mlflow.log_param("n_rounds", 20)
 
-    # === cargar dataset temporal ===
     X, y = load_dataset(dataset_name, dataset_path)
     X_train, X_test, y_train, y_test = preprocess_dataset(X, y)
 
@@ -98,7 +97,6 @@ def run_experiment(dataset_name, dataset_path=None, seed=42):
     csv_file = open(csv_path, "a", newline="")
     csv_writer = csv.writer(csv_file)
 
-    # si el archivo es nuevo => agregar cabecera
     if not csv_exists:
         csv_writer.writerow(
             [
@@ -121,7 +119,7 @@ def run_experiment(dataset_name, dataset_path=None, seed=42):
     best_so_far = -1
 
     # BUCLE DE RONDAS
-    for i in range(20):  # <--- Nº de rondas ajustable
+    for i in range(20): 
         round_start = time.time()
 
         selected_action = controller.select()
@@ -134,12 +132,10 @@ def run_experiment(dataset_name, dataset_path=None, seed=42):
             score, params = random_search(model, param_dist, X_train, y_train, iters=8)
 
         elif method_name == "optuna":
-            # Para Optuna necesitamos una lambda que envuelva el get_model_config
             def sampler(t):
                 _, p = get_model_config(model_name, "optuna", trial=t)
                 return p
 
-            # Necesitamos pasar la CLASE del modelo, no la instancia, a tu función optuna_bo
             model_class = get_model_config(model_name, "random")[0].__class__
             score, params = optuna_bo(model_class, sampler, X_train, y_train, trials=8, seed=seed)
 
@@ -148,7 +144,6 @@ def run_experiment(dataset_name, dataset_path=None, seed=42):
             score, params = successive_halving(model, param_dist, X_train, y_train)
 
         elif method_name == "hb":
-            # HB en tu código espera una lambda para param_sampler
             model_inst, _ = get_model_config(model_name, "hb")
             model_class = model_inst.__class__
 
@@ -197,14 +192,11 @@ def run_experiment(dataset_name, dataset_path=None, seed=42):
 
     logging.info(f"Ganador absoluto: {best_model_name} con params {best_params}")
 
-    # 1. Obtenemos una instancia vacía del modelo ganador
     # Usamos 'random' como método dummy, solo queremos la instancia del modelo
     final_model, _ = get_model_config(best_model_name, "random")
 
-    # 2. Le inyectamos los mejores parámetros encontrados
     final_model.set_params(**best_params)
 
-    # 3. Entrenamos
     if "random_state" in final_model.get_params():
         final_model.set_params(random_state=seed)
 

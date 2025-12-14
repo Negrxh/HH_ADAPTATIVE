@@ -9,8 +9,8 @@ from sklearn.datasets import (
 import os
 import pandas as pd
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # carpeta datasets/
-PROJECT_ROOT = os.path.abspath(os.path.join(BASE_DIR, "..", ".."))  # carpeta src/
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))  
+PROJECT_ROOT = os.path.abspath(os.path.join(BASE_DIR, "..", ".."))  
 
 # DATASET QUE SE TIENEN
 AVAILABLE_DATASETS = {
@@ -29,9 +29,7 @@ def load_dataset(name, path=None):
         X, y = data.data, data.target
         return X, y
     
-    # =========================
-    # MNIST CLÁSICO
-    # =========================
+
     if name == "mnist":
         X, y = fetch_openml(
             "mnist_784",
@@ -45,7 +43,6 @@ def load_dataset(name, path=None):
         subsample = 3000
         random_state = 42
 
-        # Subsample opcional (MUY recomendado)
         if subsample is not None:
             from sklearn.model_selection import train_test_split
             X, _, y, _ = train_test_split(

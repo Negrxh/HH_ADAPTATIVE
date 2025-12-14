@@ -16,7 +16,7 @@ class HyperHeuristicController:
         self.values = {h: 0.0 for h in heuristics}
         self.counts = {h: 0 for h in heuristics}
 
-        # Sesgo inicial según meta-features (importante!)
+        # Sesgo inicial según meta-features
         self.bias = self._compute_bias()
 
     def _compute_bias(self):
@@ -24,11 +24,9 @@ class HyperHeuristicController:
         n_samples = self.meta.get("n_samples", 0)
         n_features = self.meta.get("n_features", 0)
 
-        for action in self.heuristics:  # action es ej: "svm_optuna"
+        for action in self.heuristics: 
             model, method = action.split("_")
             score_bias = 0.0
-
-            # === BIAS POR MODELO (Conocimiento Experto) ===
 
             # SVM sufre con muchos datos (O(n^3))
             if model == "svm":
@@ -41,11 +39,10 @@ class HyperHeuristicController:
             if model == "rf":
                 score_bias += 0.02
 
-            # KNN sufre con alta dimensionalidad (maldición de la dimensión)
+            # KNN sufre con alta dimensionalidad
             if model == "knn" and n_features > 50:
                 score_bias -= 0.05
 
-            # === BIAS POR HEURÍSTICA (Lo que ya tenías) ===
             if method == "optuna":
                 score_bias -= (
                     0.001 * n_samples
@@ -77,7 +74,6 @@ class HyperHeuristicController:
         self.counts[h] += 1
         n = self.counts[h]
 
-        # incremental mean update
         self.values[h] += (reward - self.values[h]) / n
 
     def get_state(self):
