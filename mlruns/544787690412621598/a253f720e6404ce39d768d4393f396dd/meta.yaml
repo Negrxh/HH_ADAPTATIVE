@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/francoramirez/Documents/Universidad/practica/proyecto_hh/mlruns/544787690412621598/a253f720e6404ce39d768d4393f396dd/artifacts
+end_time: 1765678916275
+entry_point_name: ''
+experiment_id: '544787690412621598'
+lifecycle_stage: active
+run_id: a253f720e6404ce39d768d4393f396dd
+run_name: '[BASELINE] mnist (s=0)'
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765678546338
+status: 3
+tags: []
+user_id: francoramirez

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/francoramirez/Documents/Universidad/practica/proyecto_hh/mlruns/915656548903725763/e1bf7d1c8f4e46528dd9f1e8bba60066/artifacts
+end_time: 1765681921952
+entry_point_name: ''
+experiment_id: '915656548903725763'
+lifecycle_stage: active
+run_id: e1bf7d1c8f4e46528dd9f1e8bba60066
+run_name: '[BASELINE CASH] iris (s=4)'
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765681920545
+status: 3
+tags: []
+user_id: francoramirez

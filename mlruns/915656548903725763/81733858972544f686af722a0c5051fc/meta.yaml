@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/francoramirez/Documents/Universidad/practica/proyecto_hh/mlruns/915656548903725763/81733858972544f686af722a0c5051fc/artifacts
+end_time: 1765682049162
+entry_point_name: ''
+experiment_id: '915656548903725763'
+lifecycle_stage: active
+run_id: 81733858972544f686af722a0c5051fc
+run_name: '[BASELINE CASH] wine (s=7)'
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765682048203
+status: 3
+tags: []
+user_id: francoramirez

@@ -1,0 +1,17 @@
+name: hh-automl
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - jupyter
+  - pip
+  - pip:
+    - optuna
+    - xgboost
+    - lightgbm     # opcional
+    - joblib

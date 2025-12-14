@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/francoramirez/Documents/Universidad/practica/proyecto_hh/mlruns/915656548903725763/7bcdab15723f4479bc723178f5f0894c/artifacts
+end_time: 1765682072384
+entry_point_name: ''
+experiment_id: '915656548903725763'
+lifecycle_stage: active
+run_id: 7bcdab15723f4479bc723178f5f0894c
+run_name: '[BASELINE CASH] cancer (s=2)'
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765682072377
+status: 4
+tags: []
+user_id: francoramirez

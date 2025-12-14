@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/francoramirez/Documents/Universidad/practica/proyecto_hh/mlruns/915656548903725763/0d941a69555642f2861c974d9a77db74/artifacts
+end_time: 1765679881530
+entry_point_name: ''
+experiment_id: '915656548903725763'
+lifecycle_stage: active
+run_id: 0d941a69555642f2861c974d9a77db74
+run_name: '[BASELINE CASH] mnist (s=7)'
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765679839079
+status: 3
+tags: []
+user_id: francoramirez

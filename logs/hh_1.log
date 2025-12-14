@@ -1,0 +1,869 @@
+2025-12-11 03:37:08,605 | INFO | Score obtenido: 0.9571637234596494
+2025-12-11 03:37:08,605 | INFO | Params: {'n_estimators': 50, 'max_depth': 20}
+2025-12-11 03:37:08,611 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9571637234596494), 'optuna': 0.0}
+2025-12-11 03:37:08,611 | INFO | Usos: {'random': 1, 'optuna': 0}
+2025-12-11 03:37:11,354 | INFO | Score obtenido: 0.9515211071345949
+2025-12-11 03:37:11,354 | INFO | Params: {'n_estimators': 177, 'max_depth': 15}
+2025-12-11 03:37:11,359 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9571637234596494), 'optuna': 0.9515211071345949}
+2025-12-11 03:37:11,359 | INFO | Usos: {'random': 1, 'optuna': 1}
+2025-12-11 03:37:13,006 | INFO | Score obtenido: 0.9567664575870509
+2025-12-11 03:37:13,006 | INFO | Params: {'n_estimators': 100, 'max_depth': 20}
+2025-12-11 03:37:13,011 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9569650905233502), 'optuna': 0.9515211071345949}
+2025-12-11 03:37:13,011 | INFO | Usos: {'random': 2, 'optuna': 1}
+2025-12-11 03:37:14,747 | INFO | Score obtenido: 0.9570391088162172
+2025-12-11 03:37:14,747 | INFO | Params: {'n_estimators': 50, 'max_depth': 10}
+2025-12-11 03:37:14,753 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9569897632876392), 'optuna': 0.9515211071345949}
+2025-12-11 03:37:14,753 | INFO | Usos: {'random': 3, 'optuna': 1}
+2025-12-11 03:37:16,418 | INFO | Score obtenido: 0.9568428418108144
+2025-12-11 03:37:16,418 | INFO | Params: {'n_estimators': 100, 'max_depth': 10}
+2025-12-11 03:37:16,422 | INFO | Valores actualizados del controlador: {'random': np.float64(0.956953032918433), 'optuna': 0.9515211071345949}
+2025-12-11 03:37:16,422 | INFO | Usos: {'random': 4, 'optuna': 1}
+2025-12-11 03:37:16,473 | INFO | BEST SCORE FINAL: 0.9571637234596494
+2025-12-11 03:37:16,474 | INFO | F1 FINAL TEST: 0.962543808411215
+2025-12-11 03:38:06,140 | INFO | META FEATURES: {'n_samples': 398, 'n_features': 30, 'n_classes': 2, 'class_balance': np.float64(0.6256281407035176), 'missing_ratio': np.float64(0.0), 'mean_feature_var': np.float64(16539.208526504422), 'feature_correlation_mean': np.float64(0.41064149919784776)}
+2025-12-11 03:38:06,145 | INFO | [Ronda 0] Seleccionada: random
+2025-12-11 03:38:07,587 | INFO | Score: 0.9543781124619448 | Params: {'n_estimators': 50, 'max_depth': None}
+2025-12-11 03:38:07,594 | INFO | Controller values: {'random': np.float64(0.9543781124619448), 'optuna': 0.0}
+2025-12-11 03:38:07,594 | INFO | Controller counts: {'random': 1, 'optuna': 0}
+2025-12-11 03:38:07,594 | INFO | [Ronda 1] Seleccionada: optuna
+2025-12-11 03:38:10,005 | INFO | Score: 0.9515095984375481 | Params: {'n_estimators': 77, 'max_depth': 18}
+2025-12-11 03:38:10,012 | INFO | Controller values: {'random': np.float64(0.9543781124619448), 'optuna': 0.9515095984375481}
+2025-12-11 03:38:10,012 | INFO | Controller counts: {'random': 1, 'optuna': 1}
+2025-12-11 03:38:10,012 | INFO | [Ronda 2] Seleccionada: random
+2025-12-11 03:38:11,613 | INFO | Score: 0.9542556413079567 | Params: {'n_estimators': 150, 'max_depth': 5}
+2025-12-11 03:38:11,619 | INFO | Controller values: {'random': np.float64(0.9543168768849508), 'optuna': 0.9515095984375481}
+2025-12-11 03:38:11,619 | INFO | Controller counts: {'random': 2, 'optuna': 1}
+2025-12-11 03:38:11,619 | INFO | [Ronda 3] Seleccionada: random
+2025-12-11 03:38:13,267 | INFO | Score: 0.9515842258998802 | Params: {'n_estimators': 100, 'max_depth': None}
+2025-12-11 03:38:13,272 | INFO | Controller values: {'random': np.float64(0.9534059932232606), 'optuna': 0.9515095984375481}
+2025-12-11 03:38:13,272 | INFO | Controller counts: {'random': 3, 'optuna': 1}
+2025-12-11 03:38:13,272 | INFO | [Ronda 4] Seleccionada: random
+2025-12-11 03:38:15,000 | INFO | Score: 0.9486850948987589 | Params: {'n_estimators': 50, 'max_depth': None}
+2025-12-11 03:38:15,005 | INFO | Controller values: {'random': np.float64(0.9522257686421352), 'optuna': 0.9515095984375481}
+2025-12-11 03:38:15,005 | INFO | Controller counts: {'random': 4, 'optuna': 1}
+2025-12-11 03:40:43,345 | INFO | Score obtenido: 0.9488912009898437
+2025-12-11 03:40:43,345 | INFO | Params: {'n_estimators': 150, 'max_depth': 10}
+2025-12-11 03:40:43,352 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9488912009898437), 'optuna': 0.0}
+2025-12-11 03:40:43,352 | INFO | Usos: {'random': 1, 'optuna': 0}
+2025-12-11 03:42:13,808 | INFO | Ronda 0 — usando método: random
+2025-12-11 03:42:15,687 | INFO | Score obtenido: 0.9515842258998802
+2025-12-11 03:42:15,687 | INFO | Params: {'n_estimators': 150, 'max_depth': None}
+2025-12-11 03:42:15,694 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9515842258998802), 'optuna': 0.0}
+2025-12-11 03:42:15,694 | INFO | Usos: {'random': 1, 'optuna': 0}
+2025-12-11 03:42:15,694 | INFO | Ronda 1 — usando método: optuna
+2025-12-11 03:42:17,951 | INFO | Score obtenido: 0.9543735464827682
+2025-12-11 03:42:17,951 | INFO | Params: {'n_estimators': 53, 'max_depth': 12}
+2025-12-11 03:42:17,956 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9515842258998802), 'optuna': 0.9543735464827682}
+2025-12-11 03:42:17,956 | INFO | Usos: {'random': 1, 'optuna': 1}
+2025-12-11 03:42:17,956 | INFO | Ronda 2 — usando método: random
+2025-12-11 03:42:19,724 | INFO | Score obtenido: 0.9514230721634144
+2025-12-11 03:42:19,724 | INFO | Params: {'n_estimators': 150, 'max_depth': 20}
+2025-12-11 03:42:19,728 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9515036490316473), 'optuna': 0.9543735464827682}
+2025-12-11 03:42:19,728 | INFO | Usos: {'random': 2, 'optuna': 1}
+2025-12-11 03:42:19,728 | INFO | Ronda 3 — usando método: random
+2025-12-11 03:42:21,432 | INFO | Score obtenido: 0.9542317361635696
+2025-12-11 03:42:21,432 | INFO | Params: {'n_estimators': 50, 'max_depth': 20}
+2025-12-11 03:42:21,437 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9524130114089547), 'optuna': 0.9543735464827682}
+2025-12-11 03:42:21,437 | INFO | Usos: {'random': 3, 'optuna': 1}
+2025-12-11 03:42:21,437 | INFO | Ronda 4 — usando método: random
+2025-12-11 03:42:23,478 | INFO | Score obtenido: 0.9513965266533856
+2025-12-11 03:42:23,479 | INFO | Params: {'n_estimators': 100, 'max_depth': None}
+2025-12-11 03:42:23,483 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9521588902200624), 'optuna': 0.9543735464827682}
+2025-12-11 03:42:23,483 | INFO | Usos: {'random': 4, 'optuna': 1}
+2025-12-11 03:42:23,536 | INFO | BEST SCORE FINAL: 0.9543735464827682
+2025-12-11 03:42:23,537 | INFO | F1 FINAL TEST: 0.9561618751144478
+2025-12-11 03:43:40,287 | INFO | Ronda 0 — usando método: random
+2025-12-11 03:43:41,835 | INFO | Score obtenido: 0.9512736564233547
+2025-12-11 03:43:41,835 | INFO | Params: {'n_estimators': 50, 'max_depth': None}
+2025-12-11 03:43:41,843 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9512736564233547), 'optuna': 0.0}
+2025-12-11 03:43:41,843 | INFO | Usos: {'random': 1, 'optuna': 0}
+2025-12-11 03:43:41,843 | INFO | Ronda 1 — usando método: optuna
+2025-12-11 03:43:43,913 | INFO | Score obtenido: 0.9515095984375481
+2025-12-11 03:43:43,913 | INFO | Params: {'n_estimators': 95, 'max_depth': 12}
+2025-12-11 03:43:43,917 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9512736564233547), 'optuna': 0.9515095984375481}
+2025-12-11 03:43:43,917 | INFO | Usos: {'random': 1, 'optuna': 1}
+2025-12-11 03:43:43,917 | INFO | Ronda 2 — usando método: random
+2025-12-11 03:43:45,622 | INFO | Score obtenido: 0.9541041633003623
+2025-12-11 03:43:45,622 | INFO | Params: {'n_estimators': 50, 'max_depth': None}
+2025-12-11 03:43:45,627 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9526889098618585), 'optuna': 0.9515095984375481}
+2025-12-11 03:43:45,627 | INFO | Usos: {'random': 2, 'optuna': 1}
+2025-12-11 03:43:45,627 | INFO | Ronda 3 — usando método: random
+2025-12-11 03:43:47,581 | INFO | Score obtenido: 0.956943113127163
+2025-12-11 03:43:47,581 | INFO | Params: {'n_estimators': 100, 'max_depth': 20}
+2025-12-11 03:43:47,585 | INFO | Valores actualizados del controlador: {'random': np.float64(0.95410697761696), 'optuna': 0.9515095984375481}
+2025-12-11 03:43:47,585 | INFO | Usos: {'random': 3, 'optuna': 1}
+2025-12-11 03:43:47,585 | INFO | Ronda 4 — usando método: random
+2025-12-11 03:43:49,296 | INFO | Score obtenido: 0.9516720554943054
+2025-12-11 03:43:49,296 | INFO | Params: {'n_estimators': 50, 'max_depth': None}
+2025-12-11 03:43:49,303 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9534982470862963), 'optuna': 0.9515095984375481}
+2025-12-11 03:43:49,303 | INFO | Usos: {'random': 4, 'optuna': 1}
+2025-12-11 03:43:49,396 | INFO | BEST SCORE FINAL: 0.956943113127163
+2025-12-11 03:43:49,397 | INFO | F1 FINAL TEST: 0.9497354497354498
+2025-12-11 03:59:01,409 | INFO | Ronda 0 — usando método: random
+2025-12-11 03:59:03,292 | INFO | Score obtenido: 0.9574467370984218
+2025-12-11 03:59:03,292 | INFO | Params: {'n_estimators': 150, 'max_depth': 20}
+2025-12-11 03:59:03,298 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9574467370984218), 'optuna': 0.0}
+2025-12-11 03:59:03,298 | INFO | Usos: {'random': 1, 'optuna': 0}
+2025-12-11 03:59:03,298 | INFO | Ronda 1 — usando método: optuna
+2025-12-11 03:59:06,044 | INFO | Score obtenido: 0.9547776197463261
+2025-12-11 03:59:06,044 | INFO | Params: {'n_estimators': 133, 'max_depth': 15}
+2025-12-11 03:59:06,048 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9574467370984218), 'optuna': 0.9547776197463261}
+2025-12-11 03:59:06,048 | INFO | Usos: {'random': 1, 'optuna': 1}
+2025-12-11 03:59:06,048 | INFO | Ronda 2 — usando método: random
+2025-12-11 03:59:07,776 | INFO | Score obtenido: 0.9597713023456338
+2025-12-11 03:59:07,776 | INFO | Params: {'n_estimators': 100, 'max_depth': None}
+2025-12-11 03:59:07,781 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9586090197220278), 'optuna': 0.9547776197463261}
+2025-12-11 03:59:07,781 | INFO | Usos: {'random': 2, 'optuna': 1}
+2025-12-11 03:59:07,781 | INFO | Ronda 3 — usando método: random
+2025-12-11 03:59:09,824 | INFO | Score obtenido: 0.9572978791453509
+2025-12-11 03:59:09,824 | INFO | Params: {'n_estimators': 100, 'max_depth': 10}
+2025-12-11 03:59:09,829 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9581719728631355), 'optuna': 0.9547776197463261}
+2025-12-11 03:59:09,829 | INFO | Usos: {'random': 3, 'optuna': 1}
+2025-12-11 03:59:09,829 | INFO | Ronda 4 — usando método: random
+2025-12-11 03:59:11,733 | INFO | Score obtenido: 0.9597713023456338
+2025-12-11 03:59:11,733 | INFO | Params: {'n_estimators': 50, 'max_depth': 20}
+2025-12-11 03:59:11,737 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9585718052337601), 'optuna': 0.9547776197463261}
+2025-12-11 03:59:11,737 | INFO | Usos: {'random': 4, 'optuna': 1}
+2025-12-11 03:59:11,836 | INFO | BEST SCORE FINAL: 0.9597713023456338
+2025-12-11 03:59:11,837 | INFO | F1 FINAL TEST: 0.9531057178116001
+2025-12-12 01:06:02,907 | INFO | Ronda 0 — usando método: random
+2025-12-12 01:06:04,491 | INFO | Score obtenido: 0.959581547329074
+2025-12-12 01:06:04,491 | INFO | Params: {'n_estimators': 50, 'max_depth': 20}
+2025-12-12 01:06:04,498 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9191630946581479), 'optuna': 0.0, 'sh': 0.0, 'hb': 0.0}
+2025-12-12 01:06:04,498 | INFO | Usos: {'random': 1, 'optuna': 0, 'sh': 0, 'hb': 0}
+2025-12-12 01:06:04,498 | INFO | Ronda 1 — usando método: optuna
+2025-12-12 01:06:06,457 | INFO | Score obtenido: 0.9548572236150145
+2025-12-12 01:06:06,457 | INFO | Params: {'n_estimators': 144, 'max_depth': 17}
+2025-12-12 01:06:06,462 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9191630946581479), 'optuna': 0.9097144472300289, 'sh': 0.0, 'hb': 0.0}
+2025-12-12 01:06:06,462 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 0, 'hb': 0}
+2025-12-12 01:06:06,462 | INFO | Ronda 2 — usando método: sh
+2025-12-12 01:06:15,952 | INFO | Score obtenido: 0.9705886228250952
+2025-12-12 01:06:15,952 | INFO | Params: {'n_estimators': 50, 'max_depth': 20}
+2025-12-12 01:06:15,957 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9191630946581479), 'optuna': 0.9097144472300289, 'sh': np.float64(0.9411772456501903), 'hb': 0.0}
+2025-12-12 01:06:15,957 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 1, 'hb': 0}
+2025-12-12 01:06:15,957 | INFO | Ronda 3 — usando método: hb
+2025-12-12 01:06:44,193 | INFO | Ronda 0 — usando método: random
+2025-12-12 01:06:46,029 | INFO | Score obtenido: 0.9547776197463261
+2025-12-12 01:06:46,029 | INFO | Params: {'n_estimators': 100, 'max_depth': None}
+2025-12-12 01:06:46,035 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9095552394926523), 'optuna': 0.0, 'sh': 0.0, 'hb': 0.0}
+2025-12-12 01:06:46,035 | INFO | Usos: {'random': 1, 'optuna': 0, 'sh': 0, 'hb': 0}
+2025-12-12 01:06:46,035 | INFO | Ronda 1 — usando método: optuna
+2025-12-12 01:06:48,593 | INFO | Score obtenido: 0.9596446416560066
+2025-12-12 01:06:48,593 | INFO | Params: {'n_estimators': 101, 'max_depth': 12}
+2025-12-12 01:06:48,598 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9095552394926523), 'optuna': 0.9192892833120132, 'sh': 0.0, 'hb': 0.0}
+2025-12-12 01:06:48,598 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 0, 'hb': 0}
+2025-12-12 01:06:48,598 | INFO | Ronda 2 — usando método: sh
+2025-12-12 01:06:59,059 | INFO | Score obtenido: 0.9763624800825129
+2025-12-12 01:06:59,060 | INFO | Params: {'n_estimators': 100, 'max_depth': 20}
+2025-12-12 01:06:59,065 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9095552394926523), 'optuna': 0.9192892833120132, 'sh': np.float64(0.9527249601650258), 'hb': 0.0}
+2025-12-12 01:06:59,065 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 1, 'hb': 0}
+2025-12-12 01:06:59,066 | INFO | Ronda 3 — usando método: hb
+2025-12-12 01:07:24,622 | INFO | Score obtenido: 0.954889501661182
+2025-12-12 01:07:24,623 | INFO | Params: {'n_estimators': 249, 'max_depth': 13}
+2025-12-12 01:07:24,630 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9095552394926523), 'optuna': 0.9192892833120132, 'sh': np.float64(0.9527249601650258), 'hb': np.float64(0.909779003322364)}
+2025-12-12 01:07:24,630 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 1, 'hb': 1}
+2025-12-12 01:07:24,630 | INFO | Ronda 4 — usando método: sh
+2025-12-12 01:07:35,780 | INFO | Score obtenido: 0.9634752747252747
+2025-12-12 01:07:35,780 | INFO | Params: {'n_estimators': 300, 'max_depth': 20}
+2025-12-12 01:07:35,784 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9095552394926523), 'optuna': 0.9192892833120132, 'sh': np.float64(0.9398377548077876), 'hb': np.float64(0.909779003322364)}
+2025-12-12 01:07:35,784 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 2, 'hb': 1}
+2025-12-12 01:07:35,785 | INFO | Ronda 5 — usando método: sh
+2025-12-12 01:07:47,372 | INFO | Score obtenido: 0.9577014174678569
+2025-12-12 01:07:47,372 | INFO | Params: {'n_estimators': 300, 'max_depth': 20}
+2025-12-12 01:07:47,377 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9095552394926523), 'optuna': 0.9192892833120132, 'sh': np.float64(0.9316927815170963), 'hb': np.float64(0.909779003322364)}
+2025-12-12 01:07:47,377 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 3, 'hb': 1}
+2025-12-12 01:07:47,377 | INFO | Ronda 6 — usando método: random
+2025-12-12 01:07:49,579 | INFO | Score obtenido: 0.9573597639841961
+2025-12-12 01:07:49,579 | INFO | Params: {'n_estimators': 150, 'max_depth': 10}
+2025-12-12 01:07:49,584 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9121373837305222), 'optuna': 0.9192892833120132, 'sh': np.float64(0.9316927815170963), 'hb': np.float64(0.909779003322364)}
+2025-12-12 01:07:49,584 | INFO | Usos: {'random': 2, 'optuna': 1, 'sh': 3, 'hb': 1}
+2025-12-12 01:07:49,584 | INFO | Ronda 7 — usando método: sh
+2025-12-12 01:08:00,269 | INFO | Score obtenido: 0.9648248822383805
+2025-12-12 01:08:00,269 | INFO | Params: {'n_estimators': 100, 'max_depth': 20}
+2025-12-12 01:08:00,274 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9121373837305222), 'optuna': 0.9192892833120132, 'sh': np.float64(0.9311820272570125), 'hb': np.float64(0.909779003322364)}
+2025-12-12 01:08:00,274 | INFO | Usos: {'random': 2, 'optuna': 1, 'sh': 4, 'hb': 1}
+2025-12-12 01:08:00,274 | INFO | Ronda 8 — usando método: sh
+2025-12-12 01:08:11,126 | INFO | Score obtenido: 0.9634651580545717
+2025-12-12 01:08:11,126 | INFO | Params: {'n_estimators': 300, 'max_depth': 20}
+2025-12-12 01:08:11,131 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9121373837305222), 'optuna': 0.9192892833120132, 'sh': np.float64(0.9303316850274387), 'hb': np.float64(0.909779003322364)}
+2025-12-12 01:08:11,131 | INFO | Usos: {'random': 2, 'optuna': 1, 'sh': 5, 'hb': 1}
+2025-12-12 01:08:11,131 | INFO | Ronda 9 — usando método: sh
+2025-12-12 01:08:22,191 | INFO | Score obtenido: 0.9634752747252747
+2025-12-12 01:08:22,191 | INFO | Params: {'n_estimators': 300, 'max_depth': 15}
+2025-12-12 01:08:22,198 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9121373837305222), 'optuna': 0.9192892833120132, 'sh': np.float64(0.9297681624312905), 'hb': np.float64(0.909779003322364)}
+2025-12-12 01:08:22,198 | INFO | Usos: {'random': 2, 'optuna': 1, 'sh': 6, 'hb': 1}
+2025-12-12 01:08:22,198 | INFO | Ronda 10 — usando método: sh
+2025-12-12 01:08:32,564 | INFO | Score obtenido: 0.9634752747252747
+2025-12-12 01:08:32,564 | INFO | Params: {'n_estimators': 300, 'max_depth': 15}
+2025-12-12 01:08:32,569 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9121373837305222), 'optuna': 0.9192892833120132, 'sh': np.float64(0.9293656462911846), 'hb': np.float64(0.909779003322364)}
+2025-12-12 01:08:32,569 | INFO | Usos: {'random': 2, 'optuna': 1, 'sh': 7, 'hb': 1}
+2025-12-12 01:08:32,569 | INFO | Ronda 11 — usando método: random
+2025-12-12 01:08:34,555 | INFO | Score obtenido: 0.9550151998222445
+2025-12-12 01:08:34,555 | INFO | Params: {'n_estimators': 150, 'max_depth': 10}
+2025-12-12 01:08:34,559 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9114350557018445), 'optuna': 0.9192892833120132, 'sh': np.float64(0.9293656462911846), 'hb': np.float64(0.909779003322364)}
+2025-12-12 01:08:34,560 | INFO | Usos: {'random': 3, 'optuna': 1, 'sh': 7, 'hb': 1}
+2025-12-12 01:08:34,560 | INFO | Ronda 12 — usando método: sh
+2025-12-12 01:08:43,896 | INFO | Score obtenido: 0.9634752747252747
+2025-12-12 01:08:43,896 | INFO | Params: {'n_estimators': 100, 'max_depth': 15}
+2025-12-12 01:08:43,901 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9114350557018445), 'optuna': 0.9192892833120132, 'sh': np.float64(0.9290637591861052), 'hb': np.float64(0.909779003322364)}
+2025-12-12 01:08:43,901 | INFO | Usos: {'random': 3, 'optuna': 1, 'sh': 8, 'hb': 1}
+2025-12-12 01:08:43,901 | INFO | Ronda 13 — usando método: sh
+2025-12-12 01:08:53,780 | INFO | Score obtenido: 0.9578799888964283
+2025-12-12 01:08:53,780 | INFO | Params: {'n_estimators': 100, 'max_depth': 15}
+2025-12-12 01:08:53,784 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9114350557018445), 'optuna': 0.9192892833120132, 'sh': np.float64(0.927585561253522), 'hb': np.float64(0.909779003322364)}
+2025-12-12 01:08:53,785 | INFO | Usos: {'random': 3, 'optuna': 1, 'sh': 9, 'hb': 1}
+2025-12-12 01:08:53,785 | INFO | Ronda 14 — usando método: sh
+2025-12-12 01:09:04,211 | INFO | Score obtenido: 0.9634752747252747
+2025-12-12 01:09:04,211 | INFO | Params: {'n_estimators': 200, 'max_depth': 15}
+2025-12-12 01:09:04,216 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9114350557018445), 'optuna': 0.9192892833120132, 'sh': np.float64(0.9275220600732247), 'hb': np.float64(0.909779003322364)}
+2025-12-12 01:09:04,216 | INFO | Usos: {'random': 3, 'optuna': 1, 'sh': 10, 'hb': 1}
+2025-12-12 01:09:04,216 | INFO | Ronda 15 — usando método: sh
+2025-12-12 01:09:15,422 | INFO | Score obtenido: 0.9577014174678569
+2025-12-12 01:09:15,422 | INFO | Params: {'n_estimators': 200, 'max_depth': 20}
+2025-12-12 01:09:15,426 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9114350557018445), 'optuna': 0.9192892833120132, 'sh': np.float64(0.926420312333451), 'hb': np.float64(0.909779003322364)}
+2025-12-12 01:09:15,426 | INFO | Usos: {'random': 3, 'optuna': 1, 'sh': 11, 'hb': 1}
+2025-12-12 01:09:15,426 | INFO | Ronda 16 — usando método: random
+2025-12-12 01:09:25,545 | INFO | Ronda 0 — usando método: random
+2025-12-12 01:09:27,399 | INFO | Score obtenido: 0.9572936120485629
+2025-12-12 01:09:27,399 | INFO | Params: {'n_estimators': 50, 'max_depth': None}
+2025-12-12 01:09:27,405 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9145872240971258), 'optuna': 0.0, 'sh': 0.0, 'hb': 0.0}
+2025-12-12 01:09:27,405 | INFO | Usos: {'random': 1, 'optuna': 0, 'sh': 0, 'hb': 0}
+2025-12-12 01:09:27,406 | INFO | Ronda 1 — usando método: optuna
+2025-12-12 01:09:29,591 | INFO | Score obtenido: 0.9597196111802485
+2025-12-12 01:09:29,591 | INFO | Params: {'n_estimators': 77, 'max_depth': 20}
+2025-12-12 01:09:29,595 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9145872240971258), 'optuna': 0.919439222360497, 'sh': 0.0, 'hb': 0.0}
+2025-12-12 01:09:29,595 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 0, 'hb': 0}
+2025-12-12 01:09:29,595 | INFO | Ronda 2 — usando método: sh
+2025-12-12 01:09:39,246 | INFO | Score obtenido: 0.9532771677235449
+2025-12-12 01:09:39,246 | INFO | Params: {'n_estimators': 100, 'max_depth': 20}
+2025-12-12 01:09:39,251 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9145872240971258), 'optuna': 0.919439222360497, 'sh': np.float64(0.9065543354470897), 'hb': 0.0}
+2025-12-12 01:09:39,251 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 1, 'hb': 0}
+2025-12-12 01:09:39,251 | INFO | Ronda 3 — usando método: hb
+2025-12-12 01:10:08,309 | INFO | Score obtenido: 0.9595327334090987
+2025-12-12 01:10:08,309 | INFO | Params: {'n_estimators': 78, 'max_depth': 18}
+2025-12-12 01:10:08,335 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9145872240971258), 'optuna': 0.919439222360497, 'sh': np.float64(0.9065543354470897), 'hb': np.float64(0.9190654668181975)}
+2025-12-12 01:10:08,335 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 1, 'hb': 1}
+2025-12-12 01:10:08,335 | INFO | Ronda 4 — usando método: sh
+2025-12-12 01:10:18,556 | INFO | Score obtenido: 0.9692390153119893
+2025-12-12 01:10:18,556 | INFO | Params: {'n_estimators': 100, 'max_depth': 20}
+2025-12-12 01:10:18,561 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9145872240971258), 'optuna': 0.919439222360497, 'sh': np.float64(0.9225161830355342), 'hb': np.float64(0.9190654668181975)}
+2025-12-12 01:10:18,561 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 2, 'hb': 1}
+2025-12-12 01:10:18,561 | INFO | Ronda 5 — usando método: random
+2025-12-12 01:10:20,342 | INFO | Score obtenido: 0.9572978791453509
+2025-12-12 01:10:20,342 | INFO | Params: {'n_estimators': 50, 'max_depth': None}
+2025-12-12 01:10:20,347 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9145914911939138), 'optuna': 0.919439222360497, 'sh': np.float64(0.9225161830355342), 'hb': np.float64(0.9190654668181975)}
+2025-12-12 01:10:20,347 | INFO | Usos: {'random': 2, 'optuna': 1, 'sh': 2, 'hb': 1}
+2025-12-12 01:10:20,347 | INFO | Ronda 6 — usando método: sh
+2025-12-12 01:10:31,614 | INFO | Score obtenido: 0.9634752747252747
+2025-12-12 01:10:31,614 | INFO | Params: {'n_estimators': 300, 'max_depth': 15}
+2025-12-12 01:10:31,618 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9145914911939138), 'optuna': 0.919439222360497, 'sh': np.float64(0.9239943051738726), 'hb': np.float64(0.9190654668181975)}
+2025-12-12 01:10:31,618 | INFO | Usos: {'random': 2, 'optuna': 1, 'sh': 3, 'hb': 1}
+2025-12-12 01:10:31,618 | INFO | Ronda 7 — usando método: sh
+2025-12-12 01:10:42,874 | INFO | Score obtenido: 0.9634752747252747
+2025-12-12 01:10:42,874 | INFO | Params: {'n_estimators': 300, 'max_depth': 15}
+2025-12-12 01:10:42,878 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9145914911939138), 'optuna': 0.919439222360497, 'sh': np.float64(0.9247333662430418), 'hb': np.float64(0.9190654668181975)}
+2025-12-12 01:10:42,878 | INFO | Usos: {'random': 2, 'optuna': 1, 'sh': 4, 'hb': 1}
+2025-12-12 01:10:42,878 | INFO | Ronda 8 — usando método: sh
+2025-12-12 01:10:53,898 | INFO | Score obtenido: 0.9634651580545717
+2025-12-12 01:10:53,898 | INFO | Params: {'n_estimators': 200, 'max_depth': 20}
+2025-12-12 01:10:53,902 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9145914911939138), 'optuna': 0.919439222360497, 'sh': np.float64(0.9251727562162622), 'hb': np.float64(0.9190654668181975)}
+2025-12-12 01:10:53,902 | INFO | Usos: {'random': 2, 'optuna': 1, 'sh': 5, 'hb': 1}
+2025-12-12 01:10:53,902 | INFO | Ronda 9 — usando método: sh
+2025-12-12 01:11:04,298 | INFO | Score obtenido: 0.9520467032967034
+2025-12-12 01:11:04,298 | INFO | Params: {'n_estimators': 200, 'max_depth': 15}
+2025-12-12 01:11:04,303 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9145914911939138), 'optuna': 0.919439222360497, 'sh': np.float64(0.9216595312791196), 'hb': np.float64(0.9190654668181975)}
+2025-12-12 01:11:04,303 | INFO | Usos: {'random': 2, 'optuna': 1, 'sh': 6, 'hb': 1}
+2025-12-12 01:11:04,408 | INFO | BEST SCORE FINAL: 0.9692390153119893
+2025-12-12 01:11:04,409 | INFO | F1 FINAL TEST: 0.9531057178116001
+2025-12-12 01:56:54,737 | INFO | Starting [get] request for the URL https://www.openml.org/api/v1/xml/data/40945
+2025-12-12 01:56:55,780 | INFO | 1.0431738s taken for [get] request for the URL https://www.openml.org/api/v1/xml/data/40945
+2025-12-12 01:56:56,710 | INFO | Redirecting http://data.openml.org/datasets/0004/40945/dataset_40945.pq -> https://data.openml.org:443/datasets/0004/40945/dataset_40945.pq
+2025-12-12 01:56:57,895 | INFO | Redirecting http://data.openml.org/datasets/0004/40945/dataset_40945.pq -> https://data.openml.org:443/datasets/0004/40945/dataset_40945.pq
+2025-12-12 01:57:02,457 | INFO | pickle write Titanic
+2025-12-12 01:58:13,036 | INFO | pickle write Titanic
+2025-12-12 01:59:34,276 | INFO | pickle write Titanic
+2025-12-12 01:59:42,209 | INFO | Ronda 0 — usando método: random
+2025-12-12 01:59:45,760 | INFO | Score obtenido: 0.9766006603817431
+2025-12-12 01:59:45,760 | INFO | Params: {'n_estimators': 150, 'max_depth': None}
+2025-12-12 01:59:45,768 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9532013207634862), 'optuna': 0.0, 'sh': 0.0, 'hb': 0.0}
+2025-12-12 01:59:45,768 | INFO | Usos: {'random': 1, 'optuna': 0, 'sh': 0, 'hb': 0}
+2025-12-12 01:59:45,768 | INFO | Ronda 1 — usando método: optuna
+2025-12-12 01:59:49,273 | INFO | Score obtenido: 0.9630939849020285
+2025-12-12 01:59:49,274 | INFO | Params: {'n_estimators': 190, 'max_depth': 20}
+2025-12-12 01:59:49,279 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9532013207634862), 'optuna': 0.9261879698040569, 'sh': 0.0, 'hb': 0.0}
+2025-12-12 01:59:49,279 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 0, 'hb': 0}
+2025-12-12 01:59:49,279 | INFO | Ronda 2 — usando método: sh
+2025-12-12 02:00:01,697 | INFO | Score obtenido: 0.9531352336516731
+2025-12-12 02:00:01,697 | INFO | Params: {'n_estimators': 200, 'max_depth': 20}
+2025-12-12 02:00:01,704 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9532013207634862), 'optuna': 0.9261879698040569, 'sh': np.float64(0.9062704673033461), 'hb': 0.0}
+2025-12-12 02:00:01,704 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 1, 'hb': 0}
+2025-12-12 02:00:01,704 | INFO | Ronda 3 — usando método: hb
+2025-12-12 02:00:40,144 | INFO | Score obtenido: 0.9651680284841552
+2025-12-12 02:00:40,144 | INFO | Params: {'n_estimators': 232, 'max_depth': 18}
+2025-12-12 02:00:40,149 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9532013207634862), 'optuna': 0.9261879698040569, 'sh': np.float64(0.9062704673033461), 'hb': np.float64(0.9303360569683103)}
+2025-12-12 02:00:40,149 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 1, 'hb': 1}
+2025-12-12 02:00:40,149 | INFO | Ronda 4 — usando método: sh
+2025-12-12 02:00:52,940 | INFO | Score obtenido: 0.9603325125632377
+2025-12-12 02:00:52,942 | INFO | Params: {'n_estimators': 200, 'max_depth': 20}
+2025-12-12 02:00:52,947 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9532013207634862), 'optuna': 0.9261879698040569, 'sh': np.float64(0.9134677462149108), 'hb': np.float64(0.9303360569683103)}
+2025-12-12 02:00:52,947 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 2, 'hb': 1}
+2025-12-12 02:00:52,947 | INFO | Ronda 5 — usando método: sh
+2025-12-12 02:01:04,582 | INFO | Score obtenido: 0.9466072974644403
+2025-12-12 02:01:04,582 | INFO | Params: {'n_estimators': 50, 'max_depth': 20}
+2025-12-12 02:01:04,587 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9532013207634862), 'optuna': 0.9261879698040569, 'sh': np.float64(0.906716695786234), 'hb': np.float64(0.9303360569683103)}
+2025-12-12 02:01:04,587 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 3, 'hb': 1}
+2025-12-12 02:01:04,587 | INFO | Ronda 6 — usando método: sh
+2025-12-12 02:01:16,479 | INFO | Score obtenido: 0.9394100185528756
+2025-12-12 02:01:16,480 | INFO | Params: {'n_estimators': 50, 'max_depth': 20}
+2025-12-12 02:01:16,487 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9532013207634862), 'optuna': 0.9261879698040569, 'sh': np.float64(0.8997425311161134), 'hb': np.float64(0.9303360569683103)}
+2025-12-12 02:01:16,487 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 4, 'hb': 1}
+2025-12-12 02:01:16,487 | INFO | Ronda 7 — usando método: sh
+2025-12-12 02:01:29,986 | INFO | Score obtenido: 0.9590292116846738
+2025-12-12 02:01:29,986 | INFO | Params: {'n_estimators': 200, 'max_depth': 20}
+2025-12-12 02:01:29,992 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9532013207634862), 'optuna': 0.9261879698040569, 'sh': np.float64(0.9034057095667603), 'hb': np.float64(0.9303360569683103)}
+2025-12-12 02:01:29,992 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 5, 'hb': 1}
+2025-12-12 02:01:29,992 | INFO | Ronda 8 — usando método: sh
+2025-12-12 02:01:42,796 | INFO | Score obtenido: 0.9590292116846738
+2025-12-12 02:01:42,798 | INFO | Params: {'n_estimators': 50, 'max_depth': 20}
+2025-12-12 02:01:42,803 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9532013207634862), 'optuna': 0.9261879698040569, 'sh': np.float64(0.9058478285338581), 'hb': np.float64(0.9303360569683103)}
+2025-12-12 02:01:42,803 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 6, 'hb': 1}
+2025-12-12 02:01:42,803 | INFO | Ronda 9 — usando método: sh
+2025-12-12 02:01:57,453 | INFO | Score obtenido: 0.9441601061477222
+2025-12-12 02:01:57,454 | INFO | Params: {'n_estimators': 300, 'max_depth': 20}
+2025-12-12 02:01:57,458 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9532013207634862), 'optuna': 0.9261879698040569, 'sh': np.float64(0.9033438833569419), 'hb': np.float64(0.9303360569683103)}
+2025-12-12 02:01:57,458 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 7, 'hb': 1}
+2025-12-12 02:01:57,844 | INFO | BEST SCORE FINAL: 0.9766006603817431
+2025-12-12 02:01:57,846 | INFO | F1 FINAL TEST: 0.9676543209876542
+2025-12-12 02:11:40,667 | INFO | Starting [get] request for the URL https://www.openml.org/api/v1/xml/data/61
+2025-12-12 02:11:41,740 | INFO | 1.0727878s taken for [get] request for the URL https://www.openml.org/api/v1/xml/data/61
+2025-12-12 02:11:42,663 | INFO | Redirecting http://data.openml.org/datasets/0000/0061/dataset_61.pq -> https://data.openml.org:443/datasets/0000/0061/dataset_61.pq
+2025-12-12 02:11:43,785 | INFO | Redirecting http://data.openml.org/datasets/0000/0061/dataset_61.pq -> https://data.openml.org:443/datasets/0000/0061/dataset_61.pq
+2025-12-12 02:11:44,216 | INFO | pickle write iris
+2025-12-12 02:13:27,216 | INFO | Starting [get] request for the URL https://www.openml.org/api/v1/xml/data/1590
+2025-12-12 02:13:28,207 | INFO | 0.9896960s taken for [get] request for the URL https://www.openml.org/api/v1/xml/data/1590
+2025-12-12 02:13:28,840 | INFO | Redirecting http://data.openml.org/datasets/0000/1590/dataset_1590.pq -> https://data.openml.org:443/datasets/0000/1590/dataset_1590.pq
+2025-12-12 02:13:30,069 | INFO | Redirecting http://data.openml.org/datasets/0000/1590/dataset_1590.pq -> https://data.openml.org:443/datasets/0000/1590/dataset_1590.pq
+2025-12-12 02:13:32,206 | INFO | pickle write adult
+2025-12-12 02:14:08,752 | INFO | Ronda 0 — usando método: random
+2025-12-12 02:14:09,994 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 02:14:09,994 | INFO | Params: {'n_estimators': 150, 'max_depth': 20}
+2025-12-12 02:14:10,000 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9166737618844898), 'optuna': 0.0, 'sh': 0.0, 'hb': 0.0}
+2025-12-12 02:14:10,000 | INFO | Usos: {'random': 1, 'optuna': 0, 'sh': 0, 'hb': 0}
+2025-12-12 02:14:10,000 | INFO | Ronda 1 — usando método: optuna
+2025-12-12 02:14:11,458 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 02:14:11,458 | INFO | Params: {'n_estimators': 175, 'max_depth': 8}
+2025-12-12 02:14:11,463 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9166737618844898), 'optuna': 0.9166737618844898, 'sh': 0.0, 'hb': 0.0}
+2025-12-12 02:14:11,463 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 0, 'hb': 0}
+2025-12-12 02:14:11,463 | INFO | Ronda 2 — usando método: sh
+2025-12-12 02:14:12,976 | INFO | Score obtenido: 0.9437037037037037
+2025-12-12 02:14:12,977 | INFO | Params: {'n_estimators': 50, 'max_depth': 15}
+2025-12-12 02:14:12,981 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9166737618844898), 'optuna': 0.9166737618844898, 'sh': np.float64(0.8874074074074074), 'hb': 0.0}
+2025-12-12 02:14:12,981 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 1, 'hb': 0}
+2025-12-12 02:14:12,981 | INFO | Ronda 3 — usando método: hb
+2025-12-12 02:14:29,801 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 02:14:29,801 | INFO | Params: {'n_estimators': 280, 'max_depth': 5}
+2025-12-12 02:14:29,806 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9166737618844898), 'optuna': 0.9166737618844898, 'sh': np.float64(0.8874074074074074), 'hb': np.float64(0.9166737618844898)}
+2025-12-12 02:14:29,806 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 1, 'hb': 1}
+2025-12-12 02:14:29,806 | INFO | Ronda 4 — usando método: random
+2025-12-12 02:14:30,807 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 02:14:30,807 | INFO | Params: {'n_estimators': 50, 'max_depth': 5}
+2025-12-12 02:14:30,811 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9166737618844898), 'optuna': 0.9166737618844898, 'sh': np.float64(0.8874074074074074), 'hb': np.float64(0.9166737618844898)}
+2025-12-12 02:14:30,811 | INFO | Usos: {'random': 2, 'optuna': 1, 'sh': 1, 'hb': 1}
+2025-12-12 02:14:30,811 | INFO | Ronda 5 — usando método: sh
+2025-12-12 02:14:32,362 | INFO | Score obtenido: 0.9545817145817146
+2025-12-12 02:14:32,362 | INFO | Params: {'n_estimators': 100, 'max_depth': 15}
+2025-12-12 02:14:32,366 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9166737618844898), 'optuna': 0.9166737618844898, 'sh': np.float64(0.8982854182854183), 'hb': np.float64(0.9166737618844898)}
+2025-12-12 02:14:32,366 | INFO | Usos: {'random': 2, 'optuna': 1, 'sh': 2, 'hb': 1}
+2025-12-12 02:14:32,366 | INFO | Ronda 6 — usando método: random
+2025-12-12 02:14:33,639 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 02:14:33,639 | INFO | Params: {'n_estimators': 50, 'max_depth': None}
+2025-12-12 02:14:33,645 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9166737618844898), 'optuna': 0.9166737618844898, 'sh': np.float64(0.8982854182854183), 'hb': np.float64(0.9166737618844898)}
+2025-12-12 02:14:33,645 | INFO | Usos: {'random': 3, 'optuna': 1, 'sh': 2, 'hb': 1}
+2025-12-12 02:14:33,645 | INFO | Ronda 7 — usando método: sh
+2025-12-12 02:14:35,263 | INFO | Score obtenido: 0.9437037037037037
+2025-12-12 02:14:35,263 | INFO | Params: {'n_estimators': 50, 'max_depth': 15}
+2025-12-12 02:14:35,267 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9166737618844898), 'optuna': 0.9166737618844898, 'sh': np.float64(0.8946594146594147), 'hb': np.float64(0.9166737618844898)}
+2025-12-12 02:14:35,267 | INFO | Usos: {'random': 3, 'optuna': 1, 'sh': 3, 'hb': 1}
+2025-12-12 02:14:35,267 | INFO | Ronda 8 — usando método: random
+2025-12-12 02:14:36,326 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 02:14:36,326 | INFO | Params: {'n_estimators': 100, 'max_depth': 10}
+2025-12-12 02:14:36,331 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9166737618844898), 'optuna': 0.9166737618844898, 'sh': np.float64(0.8946594146594147), 'hb': np.float64(0.9166737618844898)}
+2025-12-12 02:14:36,331 | INFO | Usos: {'random': 4, 'optuna': 1, 'sh': 3, 'hb': 1}
+2025-12-12 02:14:36,331 | INFO | Ronda 9 — usando método: random
+2025-12-12 02:14:37,451 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 02:14:37,452 | INFO | Params: {'n_estimators': 50, 'max_depth': 20}
+2025-12-12 02:14:37,456 | INFO | Valores actualizados del controlador: {'random': np.float64(0.9166737618844898), 'optuna': 0.9166737618844898, 'sh': np.float64(0.8946594146594147), 'hb': np.float64(0.9166737618844898)}
+2025-12-12 02:14:37,456 | INFO | Usos: {'random': 5, 'optuna': 1, 'sh': 3, 'hb': 1}
+2025-12-12 02:14:37,535 | INFO | BEST SCORE FINAL: 0.9583368809422449
+2025-12-12 02:14:37,536 | INFO | F1 FINAL TEST: 1.0
+2025-12-12 02:21:06,348 | INFO | Ronda 0 — usando método: random
+2025-12-12 02:21:24,247 | INFO | Score obtenido: 0.28086013523829095
+2025-12-12 02:21:24,247 | INFO | Params: {'n_estimators': 150, 'max_depth': None}
+2025-12-12 02:21:24,255 | INFO | Valores actualizados del controlador: {'random': np.float64(-0.4382797295234181), 'optuna': 0.0, 'sh': 0.0, 'hb': 0.0}
+2025-12-12 02:21:24,255 | INFO | Usos: {'random': 1, 'optuna': 0, 'sh': 0, 'hb': 0}
+2025-12-12 02:21:24,256 | INFO | Ronda 1 — usando método: optuna
+2025-12-12 02:21:45,140 | INFO | Score obtenido: 0.25016158314194353
+2025-12-12 02:21:45,141 | INFO | Params: {'n_estimators': 126, 'max_depth': 19}
+2025-12-12 02:21:45,147 | INFO | Valores actualizados del controlador: {'random': np.float64(-0.4382797295234181), 'optuna': -0.49967683371611293, 'sh': 0.0, 'hb': 0.0}
+2025-12-12 02:21:45,147 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 0, 'hb': 0}
+2025-12-12 02:21:45,147 | INFO | Ronda 2 — usando método: sh
+2025-12-12 02:22:03,001 | INFO | Score obtenido: 0.18176896429139683
+2025-12-12 02:22:03,001 | INFO | Params: {'n_estimators': 50, 'max_depth': 20}
+2025-12-12 02:22:03,006 | INFO | Valores actualizados del controlador: {'random': np.float64(-0.4382797295234181), 'optuna': -0.49967683371611293, 'sh': np.float64(-0.6364620714172063), 'hb': 0.0}
+2025-12-12 02:22:03,006 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 1, 'hb': 0}
+2025-12-12 02:22:03,006 | INFO | Ronda 3 — usando método: hb
+2025-12-12 02:26:32,069 | INFO | Score obtenido: 0.24441311064323912
+2025-12-12 02:26:32,070 | INFO | Params: {'n_estimators': 229, 'max_depth': 18}
+2025-12-12 02:26:32,075 | INFO | Valores actualizados del controlador: {'random': np.float64(-0.4382797295234181), 'optuna': -0.49967683371611293, 'sh': np.float64(-0.6364620714172063), 'hb': np.float64(-0.5111737787135218)}
+2025-12-12 02:26:32,075 | INFO | Usos: {'random': 1, 'optuna': 1, 'sh': 1, 'hb': 1}
+2025-12-12 02:26:32,075 | INFO | Ronda 4 — usando método: random
+2025-12-12 02:26:49,161 | INFO | Score obtenido: 0.22219108973116244
+2025-12-12 02:26:49,162 | INFO | Params: {'n_estimators': 100, 'max_depth': None}
+2025-12-12 02:26:49,167 | INFO | Valores actualizados del controlador: {'random': np.float64(-0.49694877503054663), 'optuna': -0.49967683371611293, 'sh': np.float64(-0.6364620714172063), 'hb': np.float64(-0.5111737787135218)}
+2025-12-12 02:26:49,167 | INFO | Usos: {'random': 2, 'optuna': 1, 'sh': 1, 'hb': 1}
+2025-12-12 02:26:49,167 | INFO | Ronda 5 — usando método: random
+2025-12-12 02:27:05,739 | INFO | Score obtenido: 0.23433954269361204
+2025-12-12 02:27:05,740 | INFO | Params: {'n_estimators': 150, 'max_depth': None}
+2025-12-12 02:27:05,745 | INFO | Valores actualizados del controlador: {'random': np.float64(-0.5084061548912897), 'optuna': -0.49967683371611293, 'sh': np.float64(-0.6364620714172063), 'hb': np.float64(-0.5111737787135218)}
+2025-12-12 02:27:05,746 | INFO | Usos: {'random': 3, 'optuna': 1, 'sh': 1, 'hb': 1}
+2025-12-12 02:27:05,746 | INFO | Ronda 6 — usando método: random
+2025-12-12 02:27:25,230 | INFO | Score obtenido: 0.25881984231303407
+2025-12-12 02:27:25,231 | INFO | Params: {'n_estimators': 50, 'max_depth': None}
+2025-12-12 02:27:25,236 | INFO | Valores actualizados del controlador: {'random': np.float64(-0.5018946950119503), 'optuna': -0.49967683371611293, 'sh': np.float64(-0.6364620714172063), 'hb': np.float64(-0.5111737787135218)}
+2025-12-12 02:27:25,236 | INFO | Usos: {'random': 4, 'optuna': 1, 'sh': 1, 'hb': 1}
+2025-12-12 02:27:25,236 | INFO | Ronda 7 — usando método: random
+2025-12-12 02:27:45,244 | INFO | Score obtenido: 0.2505653632516838
+2025-12-12 02:27:45,245 | INFO | Params: {'n_estimators': 50, 'max_depth': 20}
+2025-12-12 02:27:45,251 | INFO | Valores actualizados del controlador: {'random': np.float64(-0.5012896107088867), 'optuna': -0.49967683371611293, 'sh': np.float64(-0.6364620714172063), 'hb': np.float64(-0.5111737787135218)}
+2025-12-12 02:27:45,251 | INFO | Usos: {'random': 5, 'optuna': 1, 'sh': 1, 'hb': 1}
+2025-12-12 02:27:45,251 | INFO | Ronda 8 — usando método: sh
+2025-12-12 02:28:02,031 | INFO | Score obtenido: 0.19439744005655896
+2025-12-12 02:28:02,031 | INFO | Params: {'n_estimators': 50, 'max_depth': 20}
+2025-12-12 02:28:02,036 | INFO | Valores actualizados del controlador: {'random': np.float64(-0.5012896107088867), 'optuna': -0.49967683371611293, 'sh': np.float64(-0.6238335956520442), 'hb': np.float64(-0.5111737787135218)}
+2025-12-12 02:28:02,036 | INFO | Usos: {'random': 5, 'optuna': 1, 'sh': 2, 'hb': 1}
+2025-12-12 02:28:02,036 | INFO | Ronda 9 — usando método: random
+2025-12-12 02:28:19,745 | INFO | Score obtenido: 0.2809086745679617
+2025-12-12 02:28:19,745 | INFO | Params: {'n_estimators': 100, 'max_depth': None}
+2025-12-12 02:28:19,749 | INFO | Valores actualizados del controlador: {'random': np.float64(-0.49077178406808497), 'optuna': -0.49967683371611293, 'sh': np.float64(-0.6238335956520442), 'hb': np.float64(-0.5111737787135218)}
+2025-12-12 02:28:19,749 | INFO | Usos: {'random': 6, 'optuna': 1, 'sh': 2, 'hb': 1}
+2025-12-12 02:28:21,067 | INFO | BEST SCORE FINAL: 0.2809086745679617
+2025-12-12 02:28:21,068 | INFO | F1 FINAL TEST: 0.28044190337465597
+2025-12-12 02:49:44,166 | INFO | Ronda 0 — usando método: random
+2025-12-12 02:53:16,485 | INFO | Ronda 0 — usando método: random
+2025-12-12 02:54:45,052 | INFO | Ronda 0 — usando método: random
+2025-12-12 02:55:14,529 | INFO | Ronda 0 — usando método: random
+2025-12-12 03:20:06,784 | INFO | Ronda 0 — Modelo: rf | Método: random
+2025-12-12 03:20:08,346 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 03:20:08,346 | INFO | Params: {'n_estimators': 100, 'max_depth': None, 'criterion': 'gini'}
+2025-12-12 03:22:42,619 | INFO | Ronda 0 — Modelo: rf | Método: random
+2025-12-12 03:22:44,019 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 03:22:44,019 | INFO | Params: {'n_estimators': 50, 'max_depth': 20, 'criterion': 'entropy'}
+2025-12-12 03:22:44,027 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.0, 'rf_sh': 0.0, 'rf_hb': 0.0, 'svm_random': 0.0, 'svm_optuna': 0.0, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 03:22:44,027 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 0, 'rf_sh': 0, 'rf_hb': 0, 'svm_random': 0, 'svm_optuna': 0, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 03:22:44,027 | INFO | Ronda 1 — Modelo: rf | Método: optuna
+2025-12-12 03:22:45,350 | INFO | Score obtenido: 0.9587571049640015
+2025-12-12 03:22:45,350 | INFO | Params: {'n_estimators': 83, 'max_depth': 19, 'criterion': 'entropy'}
+2025-12-12 03:22:45,354 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9175142099280029, 'rf_sh': 0.0, 'rf_hb': 0.0, 'svm_random': 0.0, 'svm_optuna': 0.0, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 03:22:45,354 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 0, 'rf_hb': 0, 'svm_random': 0, 'svm_optuna': 0, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 03:22:45,354 | INFO | Ronda 2 — Modelo: rf | Método: sh
+2025-12-12 03:22:47,658 | INFO | Score obtenido: 0.9545817145817146
+2025-12-12 03:22:47,658 | INFO | Params: {'n_estimators': 200, 'max_depth': 5, 'criterion': 'entropy'}
+2025-12-12 03:22:47,662 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9175142099280029, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': 0.0, 'svm_random': 0.0, 'svm_optuna': 0.0, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 03:22:47,662 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 0, 'svm_random': 0, 'svm_optuna': 0, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 03:22:47,662 | INFO | Ronda 3 — Modelo: rf | Método: hb
+2025-12-12 03:22:59,986 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 03:22:59,986 | INFO | Params: {'n_estimators': 108, 'max_depth': 13, 'criterion': np.str_('gini')}
+2025-12-12 03:22:59,992 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9175142099280029, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': 0.0, 'svm_optuna': 0.0, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 03:22:59,992 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 0, 'svm_optuna': 0, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 03:22:59,992 | INFO | Ronda 4 — Modelo: svm | Método: random
+2025-12-12 03:23:00,046 | INFO | Score obtenido: 0.966680950665625
+2025-12-12 03:23:00,046 | INFO | Params: {'kernel': 'linear', 'C': 0.1}
+2025-12-12 03:23:00,050 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9175142099280029, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.0, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 03:23:00,050 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 1, 'svm_optuna': 0, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 03:23:00,050 | INFO | Ronda 5 — Modelo: svm | Método: optuna
+2025-12-12 03:23:00,095 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 03:23:00,095 | INFO | Params: {'C': 0.14303921478742737, 'kernel': 'linear'}
+2025-12-12 03:23:00,099 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9175142099280029, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 03:23:00,099 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 03:23:00,099 | INFO | Ronda 6 — Modelo: svm | Método: sh
+2025-12-12 03:23:00,180 | INFO | Score obtenido: 0.9664335664335664
+2025-12-12 03:23:00,180 | INFO | Params: {'kernel': 'linear', 'C': 1}
+2025-12-12 03:23:00,184 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9175142099280029, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': 0.0}
+2025-12-12 03:23:00,184 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 0}
+2025-12-12 03:23:00,184 | INFO | Ronda 7 — Modelo: svm | Método: hb
+2025-12-12 03:23:00,536 | INFO | Score obtenido: 0.9666127430112104
+2025-12-12 03:23:00,536 | INFO | Params: {'C': 0.5738726472772443, 'kernel': np.str_('linear')}
+2025-12-12 03:23:00,541 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9175142099280029, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9332254860224207)}
+2025-12-12 03:23:00,541 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 1}
+2025-12-12 03:23:00,541 | INFO | Ronda 8 — Modelo: svm | Método: random
+2025-12-12 03:23:00,591 | INFO | Score obtenido: 0.966680950665625
+2025-12-12 03:23:00,591 | INFO | Params: {'kernel': 'linear', 'C': 0.1}
+2025-12-12 03:23:00,595 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9175142099280029, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9332254860224207)}
+2025-12-12 03:23:00,595 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 2, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 1}
+2025-12-12 03:23:00,596 | INFO | Ronda 9 — Modelo: svm | Método: hb
+2025-12-12 03:23:00,942 | INFO | Score obtenido: 0.966680950665625
+2025-12-12 03:23:00,942 | INFO | Params: {'C': 0.11769827727593651, 'kernel': np.str_('linear')}
+2025-12-12 03:23:00,946 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9175142099280029, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9332936936768353)}
+2025-12-12 03:23:00,946 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 2, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 2}
+2025-12-12 03:23:00,946 | INFO | Ronda 10 — Modelo: svm | Método: sh
+2025-12-12 03:23:01,026 | INFO | Score obtenido: 0.9664335664335664
+2025-12-12 03:23:01,026 | INFO | Params: {'kernel': 'linear', 'C': 1}
+2025-12-12 03:23:01,030 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9175142099280029, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9332936936768353)}
+2025-12-12 03:23:01,030 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 2, 'svm_optuna': 1, 'svm_sh': 2, 'svm_hb': 2}
+2025-12-12 03:23:01,030 | INFO | Ronda 11 — Modelo: svm | Método: random
+2025-12-12 03:23:01,080 | INFO | Score obtenido: 0.966680950665625
+2025-12-12 03:23:01,080 | INFO | Params: {'kernel': 'linear', 'C': 0.1}
+2025-12-12 03:23:01,083 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9175142099280029, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9332936936768353)}
+2025-12-12 03:23:01,083 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 3, 'svm_optuna': 1, 'svm_sh': 2, 'svm_hb': 2}
+2025-12-12 03:23:01,083 | INFO | Ronda 12 — Modelo: rf | Método: random
+2025-12-12 03:23:02,136 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 03:23:02,136 | INFO | Params: {'n_estimators': 50, 'max_depth': 20, 'criterion': 'entropy'}
+2025-12-12 03:23:02,140 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9175142099280029, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9332936936768353)}
+2025-12-12 03:23:02,140 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 3, 'svm_optuna': 1, 'svm_sh': 2, 'svm_hb': 2}
+2025-12-12 03:23:02,140 | INFO | Ronda 13 — Modelo: rf | Método: hb
+2025-12-12 03:23:13,555 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 03:23:13,555 | INFO | Params: {'n_estimators': 191, 'max_depth': 6, 'criterion': np.str_('gini')}
+2025-12-12 03:23:13,559 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9175142099280029, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9332936936768353)}
+2025-12-12 03:23:13,559 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 2, 'svm_random': 3, 'svm_optuna': 1, 'svm_sh': 2, 'svm_hb': 2}
+2025-12-12 03:23:13,560 | INFO | Ronda 14 — Modelo: svm | Método: hb
+2025-12-12 03:23:13,912 | INFO | Score obtenido: 0.966680950665625
+2025-12-12 03:23:13,912 | INFO | Params: {'C': 0.1089030728875223, 'kernel': np.str_('linear')}
+2025-12-12 03:23:13,916 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9175142099280029, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9333164295616402)}
+2025-12-12 03:23:13,916 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 2, 'svm_random': 3, 'svm_optuna': 1, 'svm_sh': 2, 'svm_hb': 3}
+2025-12-12 03:23:13,916 | INFO | Ronda 15 — Modelo: svm | Método: sh
+2025-12-12 03:23:13,997 | INFO | Score obtenido: 0.9664335664335664
+2025-12-12 03:23:13,997 | INFO | Params: {'kernel': 'linear', 'C': 1}
+2025-12-12 03:23:14,001 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9175142099280029, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9333164295616402)}
+2025-12-12 03:23:14,001 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 2, 'svm_random': 3, 'svm_optuna': 1, 'svm_sh': 3, 'svm_hb': 3}
+2025-12-12 03:23:14,001 | INFO | Ronda 16 — Modelo: rf | Método: sh
+2025-12-12 03:23:16,289 | INFO | Score obtenido: 0.9545817145817146
+2025-12-12 03:23:16,289 | INFO | Params: {'n_estimators': 100, 'max_depth': None, 'criterion': 'entropy'}
+2025-12-12 03:23:16,294 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9175142099280029, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9333164295616402)}
+2025-12-12 03:23:16,294 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 2, 'rf_hb': 2, 'svm_random': 3, 'svm_optuna': 1, 'svm_sh': 3, 'svm_hb': 3}
+2025-12-12 03:23:16,294 | INFO | Ronda 17 — Modelo: svm | Método: random
+2025-12-12 03:23:16,345 | INFO | Score obtenido: 0.966680950665625
+2025-12-12 03:23:16,345 | INFO | Params: {'kernel': 'linear', 'C': 0.1}
+2025-12-12 03:23:16,350 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9175142099280029, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9333164295616402)}
+2025-12-12 03:23:16,350 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 2, 'rf_hb': 2, 'svm_random': 4, 'svm_optuna': 1, 'svm_sh': 3, 'svm_hb': 3}
+2025-12-12 03:23:16,350 | INFO | Ronda 18 — Modelo: svm | Método: hb
+2025-12-12 03:23:16,702 | INFO | Score obtenido: 0.966680950665625
+2025-12-12 03:23:16,702 | INFO | Params: {'C': 0.12781090404638829, 'kernel': np.str_('linear')}
+2025-12-12 03:23:16,707 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9175142099280029, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9333277975040426)}
+2025-12-12 03:23:16,707 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 2, 'rf_hb': 2, 'svm_random': 4, 'svm_optuna': 1, 'svm_sh': 3, 'svm_hb': 4}
+2025-12-12 03:23:16,707 | INFO | Ronda 19 — Modelo: svm | Método: sh
+2025-12-12 03:23:16,787 | INFO | Score obtenido: 0.9664335664335664
+2025-12-12 03:23:16,787 | INFO | Params: {'kernel': 'linear', 'C': 1}
+2025-12-12 03:23:16,792 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9175142099280029, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9333277975040426)}
+2025-12-12 03:23:16,792 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 2, 'rf_hb': 2, 'svm_random': 4, 'svm_optuna': 1, 'svm_sh': 4, 'svm_hb': 4}
+2025-12-12 03:26:15,112 | INFO | Ronda 0 — Modelo: rf | Método: random
+2025-12-12 03:26:16,194 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 03:26:16,194 | INFO | Params: {'n_estimators': 100, 'max_depth': None, 'criterion': 'gini'}
+2025-12-12 03:26:16,201 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.0, 'rf_sh': 0.0, 'rf_hb': 0.0, 'svm_random': 0.0, 'svm_optuna': 0.0, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 03:26:16,201 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 0, 'rf_sh': 0, 'rf_hb': 0, 'svm_random': 0, 'svm_optuna': 0, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 03:26:16,201 | INFO | Ronda 1 — Modelo: rf | Método: optuna
+2025-12-12 03:26:17,569 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 03:26:17,569 | INFO | Params: {'n_estimators': 170, 'max_depth': 20, 'criterion': 'entropy'}
+2025-12-12 03:26:17,574 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': 0.0, 'rf_hb': 0.0, 'svm_random': 0.0, 'svm_optuna': 0.0, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 03:26:17,574 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 0, 'rf_hb': 0, 'svm_random': 0, 'svm_optuna': 0, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 03:26:17,574 | INFO | Ronda 2 — Modelo: rf | Método: sh
+2025-12-12 03:26:19,838 | INFO | Score obtenido: 0.9545817145817146
+2025-12-12 03:26:19,838 | INFO | Params: {'n_estimators': 100, 'max_depth': None, 'criterion': 'entropy'}
+2025-12-12 03:26:19,842 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': 0.0, 'svm_random': 0.0, 'svm_optuna': 0.0, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 03:26:19,842 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 0, 'svm_random': 0, 'svm_optuna': 0, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 03:26:19,842 | INFO | Ronda 3 — Modelo: rf | Método: hb
+2025-12-12 03:26:32,696 | INFO | Score obtenido: 0.9501974341821086
+2025-12-12 03:26:32,696 | INFO | Params: {'n_estimators': 125, 'max_depth': 19, 'criterion': np.str_('gini')}
+2025-12-12 03:26:32,701 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9003948683642171), 'svm_random': 0.0, 'svm_optuna': 0.0, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 03:26:32,701 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 0, 'svm_optuna': 0, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 03:26:32,701 | INFO | Ronda 4 — Modelo: svm | Método: random
+2025-12-12 03:26:32,752 | INFO | Score obtenido: 0.966680950665625
+2025-12-12 03:26:32,752 | INFO | Params: {'kernel': 'linear', 'C': 0.1}
+2025-12-12 03:26:32,756 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9003948683642171), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.0, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 03:26:32,756 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 1, 'svm_optuna': 0, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 03:26:32,756 | INFO | Ronda 5 — Modelo: svm | Método: optuna
+2025-12-12 03:26:32,800 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 03:26:32,800 | INFO | Params: {'C': 0.14799392601940572, 'kernel': 'linear'}
+2025-12-12 03:26:32,804 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9003948683642171), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 03:26:32,804 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 03:26:32,804 | INFO | Ronda 6 — Modelo: svm | Método: sh
+2025-12-12 03:26:32,885 | INFO | Score obtenido: 0.9664335664335664
+2025-12-12 03:26:32,885 | INFO | Params: {'kernel': 'linear', 'C': 1}
+2025-12-12 03:26:32,889 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9003948683642171), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': 0.0}
+2025-12-12 03:26:32,889 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 0}
+2025-12-12 03:26:32,889 | INFO | Ronda 7 — Modelo: svm | Método: hb
+2025-12-12 03:26:33,243 | INFO | Score obtenido: 0.9749340144742443
+2025-12-12 03:26:33,243 | INFO | Params: {'C': 0.09669026658586265, 'kernel': np.str_('linear')}
+2025-12-12 03:26:33,247 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9003948683642171), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9498680289484887)}
+2025-12-12 03:26:33,247 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 1}
+2025-12-12 03:26:33,247 | INFO | Ronda 8 — Modelo: svm | Método: hb
+2025-12-12 03:26:33,597 | INFO | Score obtenido: 0.966680950665625
+2025-12-12 03:26:33,597 | INFO | Params: {'C': 0.10985055826532643, 'kernel': np.str_('linear')}
+2025-12-12 03:26:33,601 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9003948683642171), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9416149651398693)}
+2025-12-12 03:26:33,601 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 2}
+2025-12-12 03:26:33,601 | INFO | Ronda 9 — Modelo: svm | Método: random
+2025-12-12 03:26:33,651 | INFO | Score obtenido: 0.966680950665625
+2025-12-12 03:26:33,651 | INFO | Params: {'kernel': 'linear', 'C': 0.1}
+2025-12-12 03:26:33,654 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9003948683642171), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9416149651398693)}
+2025-12-12 03:26:33,654 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 2, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 2}
+2025-12-12 03:26:33,654 | INFO | Ronda 10 — Modelo: svm | Método: sh
+2025-12-12 03:26:33,734 | INFO | Score obtenido: 0.9664335664335664
+2025-12-12 03:26:33,734 | INFO | Params: {'kernel': 'linear', 'C': 1}
+2025-12-12 03:26:33,738 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9003948683642171), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9416149651398693)}
+2025-12-12 03:26:33,738 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 2, 'svm_optuna': 1, 'svm_sh': 2, 'svm_hb': 2}
+2025-12-12 03:26:33,738 | INFO | Ronda 11 — Modelo: svm | Método: hb
+2025-12-12 03:26:34,087 | INFO | Score obtenido: 0.9666127430112104
+2025-12-12 03:26:34,087 | INFO | Params: {'C': 0.49849492327550765, 'kernel': np.str_('linear')}
+2025-12-12 03:26:34,091 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9003948683642171), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9388184721007198)}
+2025-12-12 03:26:34,091 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 2, 'svm_optuna': 1, 'svm_sh': 2, 'svm_hb': 3}
+2025-12-12 03:26:34,091 | INFO | Ronda 12 — Modelo: rf | Método: random
+2025-12-12 03:26:35,414 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 03:26:35,414 | INFO | Params: {'n_estimators': 200, 'max_depth': 20, 'criterion': 'gini'}
+2025-12-12 03:26:35,419 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9003948683642171), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9388184721007198)}
+2025-12-12 03:26:35,419 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 2, 'svm_optuna': 1, 'svm_sh': 2, 'svm_hb': 3}
+2025-12-12 03:26:35,419 | INFO | Ronda 13 — Modelo: svm | Método: random
+2025-12-12 03:26:35,469 | INFO | Score obtenido: 0.966680950665625
+2025-12-12 03:26:35,469 | INFO | Params: {'kernel': 'linear', 'C': 0.1}
+2025-12-12 03:26:35,472 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9003948683642171), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9388184721007198)}
+2025-12-12 03:26:35,472 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 3, 'svm_optuna': 1, 'svm_sh': 2, 'svm_hb': 3}
+2025-12-12 03:26:35,472 | INFO | Ronda 14 — Modelo: svm | Método: sh
+2025-12-12 03:26:35,552 | INFO | Score obtenido: 0.9664335664335664
+2025-12-12 03:26:35,552 | INFO | Params: {'kernel': 'linear', 'C': 1}
+2025-12-12 03:26:35,556 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9003948683642171), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9388184721007198)}
+2025-12-12 03:26:35,557 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 3, 'svm_optuna': 1, 'svm_sh': 3, 'svm_hb': 3}
+2025-12-12 03:26:35,557 | INFO | Ronda 15 — Modelo: rf | Método: sh
+2025-12-12 03:26:37,828 | INFO | Score obtenido: 0.9545817145817146
+2025-12-12 03:26:37,828 | INFO | Params: {'n_estimators': 100, 'max_depth': None, 'criterion': 'entropy'}
+2025-12-12 03:26:37,832 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9003948683642171), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9388184721007198)}
+2025-12-12 03:26:37,832 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 2, 'rf_hb': 1, 'svm_random': 3, 'svm_optuna': 1, 'svm_sh': 3, 'svm_hb': 3}
+2025-12-12 03:26:37,832 | INFO | Ronda 16 — Modelo: rf | Método: hb
+2025-12-12 03:26:51,143 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 03:26:51,143 | INFO | Params: {'n_estimators': 184, 'max_depth': 15, 'criterion': np.str_('gini')}
+2025-12-12 03:26:51,148 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9085343151243535), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9388184721007198)}
+2025-12-12 03:26:51,148 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 2, 'rf_hb': 2, 'svm_random': 3, 'svm_optuna': 1, 'svm_sh': 3, 'svm_hb': 3}
+2025-12-12 03:26:51,148 | INFO | Ronda 17 — Modelo: svm | Método: hb
+2025-12-12 03:26:51,494 | INFO | Score obtenido: 0.966680950665625
+2025-12-12 03:26:51,494 | INFO | Params: {'C': 0.10196245871156247, 'kernel': np.str_('linear')}
+2025-12-12 03:26:51,498 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9085343151243535), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9374543294083524)}
+2025-12-12 03:26:51,498 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 2, 'rf_hb': 2, 'svm_random': 3, 'svm_optuna': 1, 'svm_sh': 3, 'svm_hb': 4}
+2025-12-12 03:26:51,498 | INFO | Ronda 18 — Modelo: svm | Método: random
+2025-12-12 03:26:51,547 | INFO | Score obtenido: 0.966680950665625
+2025-12-12 03:26:51,547 | INFO | Params: {'kernel': 'linear', 'C': 0.1}
+2025-12-12 03:26:51,551 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9085343151243535), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9374543294083524)}
+2025-12-12 03:26:51,551 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 2, 'rf_hb': 2, 'svm_random': 4, 'svm_optuna': 1, 'svm_sh': 3, 'svm_hb': 4}
+2025-12-12 03:26:51,551 | INFO | Ronda 19 — Modelo: svm | Método: sh
+2025-12-12 03:26:51,630 | INFO | Score obtenido: 0.9664335664335664
+2025-12-12 03:26:51,630 | INFO | Params: {'kernel': 'linear', 'C': 1}
+2025-12-12 03:26:51,634 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9085343151243535), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9166737618844898, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9374543294083524)}
+2025-12-12 03:26:51,634 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 2, 'rf_hb': 2, 'svm_random': 4, 'svm_optuna': 1, 'svm_sh': 4, 'svm_hb': 4}
+2025-12-12 03:26:51,634 | INFO | Ganador absoluto: svm con params {'C': 0.09669026658586265, 'kernel': np.str_('linear')}
+2025-12-12 03:26:51,643 | INFO | BEST SCORE FINAL: 0.9749340144742443
+2025-12-12 03:26:51,644 | INFO | F1 FINAL TEST: 1.0
+2025-12-12 03:27:24,336 | INFO | Ronda 0 — Modelo: rf | Método: random
+2025-12-12 03:27:49,752 | INFO | Score obtenido: 0.3255821490912669
+2025-12-12 03:27:49,753 | INFO | Params: {'n_estimators': 50, 'max_depth': 20, 'criterion': 'entropy'}
+2025-12-12 03:27:49,761 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(-0.34883570181746615), 'rf_optuna': 0.0, 'rf_sh': 0.0, 'rf_hb': 0.0, 'svm_random': 0.0, 'svm_optuna': 0.0, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 03:27:49,761 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 0, 'rf_sh': 0, 'rf_hb': 0, 'svm_random': 0, 'svm_optuna': 0, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 03:27:49,761 | INFO | Ronda 1 — Modelo: rf | Método: optuna
+2025-12-12 03:28:13,784 | INFO | Score obtenido: 0.3080091770308386
+2025-12-12 03:28:13,784 | INFO | Params: {'n_estimators': 152, 'max_depth': 15, 'criterion': 'entropy'}
+2025-12-12 03:28:13,791 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(-0.34883570181746615), 'rf_optuna': -0.38398164593832285, 'rf_sh': 0.0, 'rf_hb': 0.0, 'svm_random': 0.0, 'svm_optuna': 0.0, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 03:28:13,791 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 0, 'rf_hb': 0, 'svm_random': 0, 'svm_optuna': 0, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 03:28:13,791 | INFO | Ronda 2 — Modelo: rf | Método: sh
+2025-12-12 03:28:33,894 | INFO | Score obtenido: 0.1979544137183398
+2025-12-12 03:28:33,895 | INFO | Params: {'n_estimators': 50, 'max_depth': 20, 'criterion': 'gini'}
+2025-12-12 03:28:33,899 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(-0.34883570181746615), 'rf_optuna': -0.38398164593832285, 'rf_sh': np.float64(-0.6040911725633205), 'rf_hb': 0.0, 'svm_random': 0.0, 'svm_optuna': 0.0, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 03:28:33,899 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 0, 'svm_random': 0, 'svm_optuna': 0, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 03:28:33,899 | INFO | Ronda 3 — Modelo: rf | Método: hb
+2025-12-12 03:32:51,282 | INFO | Score obtenido: 0.32420380973879176
+2025-12-12 03:32:51,282 | INFO | Params: {'n_estimators': 177, 'max_depth': 23, 'criterion': np.str_('entropy')}
+2025-12-12 03:32:51,289 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(-0.34883570181746615), 'rf_optuna': -0.38398164593832285, 'rf_sh': np.float64(-0.6040911725633205), 'rf_hb': np.float64(-0.3515923805224165), 'svm_random': 0.0, 'svm_optuna': 0.0, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 03:32:51,289 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 0, 'svm_optuna': 0, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 03:32:51,289 | INFO | Ronda 4 — Modelo: svm | Método: random
+2025-12-12 03:49:11,732 | INFO | Score obtenido: 0.22666483435118043
+2025-12-12 03:49:11,733 | INFO | Params: {'kernel': 'rbf', 'C': 10}
+2025-12-12 03:49:11,739 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(-0.34883570181746615), 'rf_optuna': -0.38398164593832285, 'rf_sh': np.float64(-0.6040911725633205), 'rf_hb': np.float64(-0.3515923805224165), 'svm_random': np.float64(-0.5466703312976391), 'svm_optuna': 0.0, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 03:49:11,740 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 1, 'svm_optuna': 0, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 03:49:11,740 | INFO | Ronda 5 — Modelo: svm | Método: optuna
+2025-12-12 03:51:02,669 | INFO | Score obtenido: 0.22693214127223804
+2025-12-12 03:51:02,669 | INFO | Params: {'C': 17.99851762474924, 'kernel': 'rbf'}
+2025-12-12 03:51:02,675 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(-0.34883570181746615), 'rf_optuna': -0.38398164593832285, 'rf_sh': np.float64(-0.6040911725633205), 'rf_hb': np.float64(-0.3515923805224165), 'svm_random': np.float64(-0.5466703312976391), 'svm_optuna': -0.5461357174555239, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 03:51:02,675 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 03:51:02,675 | INFO | Ronda 6 — Modelo: svm | Método: sh
+2025-12-12 03:51:09,278 | INFO | Score obtenido: 0.19607299452531268
+2025-12-12 03:51:09,278 | INFO | Params: {'kernel': 'linear', 'C': 0.1}
+2025-12-12 03:51:09,282 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(-0.34883570181746615), 'rf_optuna': -0.38398164593832285, 'rf_sh': np.float64(-0.6040911725633205), 'rf_hb': np.float64(-0.3515923805224165), 'svm_random': np.float64(-0.5466703312976391), 'svm_optuna': -0.5461357174555239, 'svm_sh': np.float64(-0.6078540109493746), 'svm_hb': 0.0}
+2025-12-12 03:51:09,282 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 0}
+2025-12-12 03:51:09,282 | INFO | Ronda 7 — Modelo: svm | Método: hb
+2025-12-12 04:00:00,456 | INFO | Score obtenido: 0.22669896363417355
+2025-12-12 04:00:00,456 | INFO | Params: {'C': 20.841391405949732, 'kernel': np.str_('rbf')}
+2025-12-12 04:00:00,462 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(-0.34883570181746615), 'rf_optuna': -0.38398164593832285, 'rf_sh': np.float64(-0.6040911725633205), 'rf_hb': np.float64(-0.3515923805224165), 'svm_random': np.float64(-0.5466703312976391), 'svm_optuna': -0.5461357174555239, 'svm_sh': np.float64(-0.6078540109493746), 'svm_hb': np.float64(-0.546602072731653)}
+2025-12-12 04:00:00,462 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 1}
+2025-12-12 04:00:00,463 | INFO | Ronda 8 — Modelo: rf | Método: random
+2025-12-12 04:00:26,557 | INFO | Score obtenido: 0.30047509728952404
+2025-12-12 04:00:26,557 | INFO | Params: {'n_estimators': 200, 'max_depth': 20, 'criterion': 'entropy'}
+2025-12-12 04:00:26,563 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(-0.37394275361920903), 'rf_optuna': -0.38398164593832285, 'rf_sh': np.float64(-0.6040911725633205), 'rf_hb': np.float64(-0.3515923805224165), 'svm_random': np.float64(-0.5466703312976391), 'svm_optuna': -0.5461357174555239, 'svm_sh': np.float64(-0.6078540109493746), 'svm_hb': np.float64(-0.546602072731653)}
+2025-12-12 04:00:26,563 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 1}
+2025-12-12 04:00:26,564 | INFO | Ronda 9 — Modelo: rf | Método: hb
+2025-12-12 04:04:29,534 | INFO | Score obtenido: 0.3194245920757275
+2025-12-12 04:04:29,534 | INFO | Params: {'n_estimators': 175, 'max_depth': 17, 'criterion': np.str_('entropy')}
+2025-12-12 04:04:29,542 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(-0.37394275361920903), 'rf_optuna': -0.38398164593832285, 'rf_sh': np.float64(-0.6040911725633205), 'rf_hb': np.float64(-0.35637159818548075), 'svm_random': np.float64(-0.5466703312976391), 'svm_optuna': -0.5461357174555239, 'svm_sh': np.float64(-0.6078540109493746), 'svm_hb': np.float64(-0.546602072731653)}
+2025-12-12 04:04:29,542 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 2, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 1}
+2025-12-12 04:04:29,542 | INFO | Ronda 10 — Modelo: rf | Método: random
+2025-12-12 04:04:51,876 | INFO | Score obtenido: 0.3099032870818795
+2025-12-12 04:04:51,876 | INFO | Params: {'n_estimators': 100, 'max_depth': 20, 'criterion': 'entropy'}
+2025-12-12 04:04:51,883 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(-0.3760263110248864), 'rf_optuna': -0.38398164593832285, 'rf_sh': np.float64(-0.6040911725633205), 'rf_hb': np.float64(-0.35637159818548075), 'svm_random': np.float64(-0.5466703312976391), 'svm_optuna': -0.5461357174555239, 'svm_sh': np.float64(-0.6078540109493746), 'svm_hb': np.float64(-0.546602072731653)}
+2025-12-12 04:04:51,883 | INFO | Usos: {'rf_random': 3, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 2, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 1}
+2025-12-12 04:04:51,883 | INFO | Ronda 11 — Modelo: rf | Método: random
+2025-12-12 04:05:22,062 | INFO | Score obtenido: 0.3186344543709028
+2025-12-12 04:05:22,062 | INFO | Params: {'n_estimators': 200, 'max_depth': None, 'criterion': 'entropy'}
+2025-12-12 04:05:22,066 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(-0.37270250608321337), 'rf_optuna': -0.38398164593832285, 'rf_sh': np.float64(-0.6040911725633205), 'rf_hb': np.float64(-0.35637159818548075), 'svm_random': np.float64(-0.5466703312976391), 'svm_optuna': -0.5461357174555239, 'svm_sh': np.float64(-0.6078540109493746), 'svm_hb': np.float64(-0.546602072731653)}
+2025-12-12 04:05:22,066 | INFO | Usos: {'rf_random': 4, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 2, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 1}
+2025-12-12 04:05:22,066 | INFO | Ronda 12 — Modelo: rf | Método: random
+2025-12-12 04:05:43,358 | INFO | Score obtenido: 0.30781915098059415
+2025-12-12 04:05:43,359 | INFO | Params: {'n_estimators': 100, 'max_depth': 20, 'criterion': 'entropy'}
+2025-12-12 04:05:43,366 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(-0.37503434447433304), 'rf_optuna': -0.38398164593832285, 'rf_sh': np.float64(-0.6040911725633205), 'rf_hb': np.float64(-0.35637159818548075), 'svm_random': np.float64(-0.5466703312976391), 'svm_optuna': -0.5461357174555239, 'svm_sh': np.float64(-0.6078540109493746), 'svm_hb': np.float64(-0.546602072731653)}
+2025-12-12 04:05:43,366 | INFO | Usos: {'rf_random': 5, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 2, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 1}
+2025-12-12 04:05:43,366 | INFO | Ronda 13 — Modelo: rf | Método: random
+2025-12-12 04:05:59,697 | INFO | Score obtenido: 0.2841063563396087
+2025-12-12 04:05:59,699 | INFO | Params: {'n_estimators': 50, 'max_depth': None, 'criterion': 'entropy'}
+2025-12-12 04:05:59,705 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(-0.38449316828207464), 'rf_optuna': -0.38398164593832285, 'rf_sh': np.float64(-0.6040911725633205), 'rf_hb': np.float64(-0.35637159818548075), 'svm_random': np.float64(-0.5466703312976391), 'svm_optuna': -0.5461357174555239, 'svm_sh': np.float64(-0.6078540109493746), 'svm_hb': np.float64(-0.546602072731653)}
+2025-12-12 04:05:59,706 | INFO | Usos: {'rf_random': 6, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 2, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 1}
+2025-12-12 04:05:59,706 | INFO | Ronda 14 — Modelo: rf | Método: hb
+2025-12-12 04:10:23,441 | INFO | Score obtenido: 0.3105959605803739
+2025-12-12 04:10:23,441 | INFO | Params: {'n_estimators': 177, 'max_depth': 28, 'criterion': np.str_('entropy')}
+2025-12-12 04:10:23,447 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(-0.38449316828207464), 'rf_optuna': -0.38398164593832285, 'rf_sh': np.float64(-0.6040911725633205), 'rf_hb': np.float64(-0.3638504250700712), 'svm_random': np.float64(-0.5466703312976391), 'svm_optuna': -0.5461357174555239, 'svm_sh': np.float64(-0.6078540109493746), 'svm_hb': np.float64(-0.546602072731653)}
+2025-12-12 04:10:23,447 | INFO | Usos: {'rf_random': 6, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 3, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 1}
+2025-12-12 04:10:23,447 | INFO | Ronda 15 — Modelo: rf | Método: random
+2025-12-12 04:10:46,678 | INFO | Score obtenido: 0.27955160007436636
+2025-12-12 04:10:46,678 | INFO | Params: {'n_estimators': 200, 'max_depth': 10, 'criterion': 'entropy'}
+2025-12-12 04:10:46,683 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(-0.39255082993481644), 'rf_optuna': -0.38398164593832285, 'rf_sh': np.float64(-0.6040911725633205), 'rf_hb': np.float64(-0.3638504250700712), 'svm_random': np.float64(-0.5466703312976391), 'svm_optuna': -0.5461357174555239, 'svm_sh': np.float64(-0.6078540109493746), 'svm_hb': np.float64(-0.546602072731653)}
+2025-12-12 04:10:46,683 | INFO | Usos: {'rf_random': 7, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 3, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 1}
+2025-12-12 04:10:46,683 | INFO | Ronda 16 — Modelo: rf | Método: hb
+2025-12-12 04:14:28,648 | INFO | Score obtenido: 0.2884462963822653
+2025-12-12 04:14:28,648 | INFO | Params: {'n_estimators': 86, 'max_depth': 29, 'criterion': np.str_('entropy')}
+2025-12-12 04:14:28,652 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(-0.39255082993481644), 'rf_optuna': -0.38398164593832285, 'rf_sh': np.float64(-0.6040911725633205), 'rf_hb': np.float64(-0.37866467061142073), 'svm_random': np.float64(-0.5466703312976391), 'svm_optuna': -0.5461357174555239, 'svm_sh': np.float64(-0.6078540109493746), 'svm_hb': np.float64(-0.546602072731653)}
+2025-12-12 04:14:28,652 | INFO | Usos: {'rf_random': 7, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 4, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 1}
+2025-12-12 04:14:28,652 | INFO | Ronda 17 — Modelo: rf | Método: random
+2025-12-12 04:14:51,041 | INFO | Score obtenido: 0.3174618974832661
+2025-12-12 04:14:51,041 | INFO | Params: {'n_estimators': 100, 'max_depth': None, 'criterion': 'entropy'}
+2025-12-12 04:14:51,046 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(-0.38911650182214785), 'rf_optuna': -0.38398164593832285, 'rf_sh': np.float64(-0.6040911725633205), 'rf_hb': np.float64(-0.37866467061142073), 'svm_random': np.float64(-0.5466703312976391), 'svm_optuna': -0.5461357174555239, 'svm_sh': np.float64(-0.6078540109493746), 'svm_hb': np.float64(-0.546602072731653)}
+2025-12-12 04:14:51,046 | INFO | Usos: {'rf_random': 8, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 4, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 1}
+2025-12-12 04:14:51,046 | INFO | Ronda 18 — Modelo: rf | Método: random
+2025-12-12 04:15:14,199 | INFO | Score obtenido: 0.30758878801906
+2025-12-12 04:15:14,199 | INFO | Params: {'n_estimators': 100, 'max_depth': 20, 'criterion': 'entropy'}
+2025-12-12 04:15:14,204 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(-0.3886393820598959), 'rf_optuna': -0.38398164593832285, 'rf_sh': np.float64(-0.6040911725633205), 'rf_hb': np.float64(-0.37866467061142073), 'svm_random': np.float64(-0.5466703312976391), 'svm_optuna': -0.5461357174555239, 'svm_sh': np.float64(-0.6078540109493746), 'svm_hb': np.float64(-0.546602072731653)}
+2025-12-12 04:15:14,204 | INFO | Usos: {'rf_random': 9, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 4, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 1}
+2025-12-12 04:15:14,204 | INFO | Ronda 19 — Modelo: rf | Método: random
+2025-12-12 04:15:31,226 | INFO | Score obtenido: 0.28139158419766575
+2025-12-12 04:15:31,227 | INFO | Params: {'n_estimators': 50, 'max_depth': None, 'criterion': 'entropy'}
+2025-12-12 04:15:31,231 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(-0.39349712701437317), 'rf_optuna': -0.38398164593832285, 'rf_sh': np.float64(-0.6040911725633205), 'rf_hb': np.float64(-0.37866467061142073), 'svm_random': np.float64(-0.5466703312976391), 'svm_optuna': -0.5461357174555239, 'svm_sh': np.float64(-0.6078540109493746), 'svm_hb': np.float64(-0.546602072731653)}
+2025-12-12 04:15:31,232 | INFO | Usos: {'rf_random': 10, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 4, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 1}
+2025-12-12 04:15:31,232 | INFO | Ganador absoluto: rf con params {'n_estimators': 50, 'max_depth': 20, 'criterion': 'entropy'}
+2025-12-12 04:15:32,091 | INFO | BEST SCORE FINAL: 0.3255821490912669
+2025-12-12 04:15:32,092 | INFO | F1 FINAL TEST: 0.289123139690169
+2025-12-12 22:19:26,759 | INFO | Ronda 0 — Modelo: rf | Método: random
+2025-12-12 22:21:08,988 | INFO | Ronda 0 — Modelo: rf | Método: random
+2025-12-12 22:21:12,385 | INFO | Ronda 0 — Modelo: rf | Método: random
+2025-12-12 22:21:46,250 | INFO | Ronda 0 — Modelo: rf | Método: random
+2025-12-12 22:21:47,822 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 22:21:47,822 | INFO | Params: {'n_estimators': 200, 'max_depth': None, 'criterion': 'entropy'}
+2025-12-12 22:21:47,829 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.0, 'rf_sh': 0.0, 'rf_hb': 0.0, 'svm_random': 0.0, 'svm_optuna': 0.0, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 22:21:47,829 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 0, 'rf_sh': 0, 'rf_hb': 0, 'svm_random': 0, 'svm_optuna': 0, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 22:21:47,829 | INFO | Ronda 1 — Modelo: rf | Método: optuna
+2025-12-12 22:21:49,406 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 22:21:49,406 | INFO | Params: {'n_estimators': 155, 'max_depth': 15, 'criterion': 'gini'}
+2025-12-12 22:21:49,410 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': 0.0, 'rf_hb': 0.0, 'svm_random': 0.0, 'svm_optuna': 0.0, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 22:21:49,410 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 0, 'rf_hb': 0, 'svm_random': 0, 'svm_optuna': 0, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 22:21:49,410 | INFO | Ronda 2 — Modelo: rf | Método: sh
+2025-12-12 22:21:51,752 | INFO | Score obtenido: 0.9545817145817146
+2025-12-12 22:21:51,752 | INFO | Params: {'n_estimators': 200, 'max_depth': 5, 'criterion': 'entropy'}
+2025-12-12 22:21:51,756 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': 0.0, 'svm_random': 0.0, 'svm_optuna': 0.0, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 22:21:51,756 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 0, 'svm_random': 0, 'svm_optuna': 0, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 22:21:51,756 | INFO | Ronda 3 — Modelo: rf | Método: hb
+2025-12-12 22:22:04,499 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 22:22:04,499 | INFO | Params: {'n_estimators': 191, 'max_depth': 29, 'criterion': np.str_('entropy')}
+2025-12-12 22:22:04,504 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': 0.0, 'svm_optuna': 0.0, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 22:22:04,504 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 0, 'svm_optuna': 0, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 22:22:04,504 | INFO | Ronda 4 — Modelo: svm | Método: random
+2025-12-12 22:22:04,556 | INFO | Score obtenido: 0.966680950665625
+2025-12-12 22:22:04,556 | INFO | Params: {'kernel': 'linear', 'C': 0.1}
+2025-12-12 22:22:04,560 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.0, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 22:22:04,560 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 1, 'svm_optuna': 0, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 22:22:04,560 | INFO | Ronda 5 — Modelo: svm | Método: optuna
+2025-12-12 22:22:04,605 | INFO | Score obtenido: 0.9581069958847737
+2025-12-12 22:22:04,605 | INFO | Params: {'C': 2.783520148597212, 'kernel': 'linear'}
+2025-12-12 22:22:04,609 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9162139917695473, 'svm_sh': 0.0, 'svm_hb': 0.0}
+2025-12-12 22:22:04,609 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 0, 'svm_hb': 0}
+2025-12-12 22:22:04,609 | INFO | Ronda 6 — Modelo: svm | Método: sh
+2025-12-12 22:22:04,691 | INFO | Score obtenido: 0.9664335664335664
+2025-12-12 22:22:04,691 | INFO | Params: {'kernel': 'linear', 'C': 1}
+2025-12-12 22:22:04,696 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9162139917695473, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': 0.0}
+2025-12-12 22:22:04,696 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 0}
+2025-12-12 22:22:04,696 | INFO | Ronda 7 — Modelo: svm | Método: hb
+2025-12-12 22:22:05,050 | INFO | Score obtenido: 0.9584731091244502
+2025-12-12 22:22:05,050 | INFO | Params: {'C': 1.8251837494035694, 'kernel': np.str_('rbf')}
+2025-12-12 22:22:05,055 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9162139917695473, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9169462182489003)}
+2025-12-12 22:22:05,055 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 1, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 1}
+2025-12-12 22:22:05,055 | INFO | Ronda 8 — Modelo: svm | Método: random
+2025-12-12 22:22:05,105 | INFO | Score obtenido: 0.966680950665625
+2025-12-12 22:22:05,105 | INFO | Params: {'kernel': 'linear', 'C': 0.1}
+2025-12-12 22:22:05,109 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9162139917695473, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9169462182489003)}
+2025-12-12 22:22:05,109 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 2, 'svm_optuna': 1, 'svm_sh': 1, 'svm_hb': 1}
+2025-12-12 22:22:05,109 | INFO | Ronda 9 — Modelo: svm | Método: sh
+2025-12-12 22:22:05,191 | INFO | Score obtenido: 0.9664335664335664
+2025-12-12 22:22:05,191 | INFO | Params: {'kernel': 'linear', 'C': 1}
+2025-12-12 22:22:05,195 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9162139917695473, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9169462182489003)}
+2025-12-12 22:22:05,195 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 2, 'svm_optuna': 1, 'svm_sh': 2, 'svm_hb': 1}
+2025-12-12 22:22:05,195 | INFO | Ronda 10 — Modelo: svm | Método: hb
+2025-12-12 22:22:05,574 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 22:22:05,574 | INFO | Params: {'C': 0.415124865998659, 'kernel': np.str_('linear')}
+2025-12-12 22:22:05,580 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9162139917695473, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9168099900666951)}
+2025-12-12 22:22:05,580 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 2, 'svm_optuna': 1, 'svm_sh': 2, 'svm_hb': 2}
+2025-12-12 22:22:05,581 | INFO | Ronda 11 — Modelo: svm | Método: random
+2025-12-12 22:22:05,660 | INFO | Score obtenido: 0.966680950665625
+2025-12-12 22:22:05,660 | INFO | Params: {'kernel': 'linear', 'C': 0.1}
+2025-12-12 22:22:05,665 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9162139917695473, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9168099900666951)}
+2025-12-12 22:22:05,665 | INFO | Usos: {'rf_random': 1, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 3, 'svm_optuna': 1, 'svm_sh': 2, 'svm_hb': 2}
+2025-12-12 22:22:05,665 | INFO | Ronda 12 — Modelo: rf | Método: random
+2025-12-12 22:22:06,950 | INFO | Score obtenido: 0.9583368809422449
+2025-12-12 22:22:06,950 | INFO | Params: {'n_estimators': 100, 'max_depth': 5, 'criterion': 'gini'}
+2025-12-12 22:22:06,954 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9166737618844898), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9162139917695473, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9168099900666951)}
+2025-12-12 22:22:06,954 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 1, 'svm_random': 3, 'svm_optuna': 1, 'svm_sh': 2, 'svm_hb': 2}
+2025-12-12 22:22:06,954 | INFO | Ronda 13 — Modelo: rf | Método: hb
+2025-12-12 22:22:20,177 | INFO | Score obtenido: 0.9501974341821086
+2025-12-12 22:22:20,177 | INFO | Params: {'n_estimators': 144, 'max_depth': 26, 'criterion': np.str_('gini')}
+2025-12-12 22:22:20,181 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9085343151243535), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9162139917695473, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9168099900666951)}
+2025-12-12 22:22:20,181 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 2, 'svm_random': 3, 'svm_optuna': 1, 'svm_sh': 2, 'svm_hb': 2}
+2025-12-12 22:22:20,181 | INFO | Ronda 14 — Modelo: svm | Método: sh
+2025-12-12 22:22:20,262 | INFO | Score obtenido: 0.9664335664335664
+2025-12-12 22:22:20,262 | INFO | Params: {'kernel': 'linear', 'C': 1}
+2025-12-12 22:22:20,266 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9085343151243535), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9162139917695473, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9168099900666951)}
+2025-12-12 22:22:20,266 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 1, 'rf_hb': 2, 'svm_random': 3, 'svm_optuna': 1, 'svm_sh': 3, 'svm_hb': 2}
+2025-12-12 22:22:20,266 | INFO | Ronda 15 — Modelo: rf | Método: sh
+2025-12-12 22:22:22,613 | INFO | Score obtenido: 0.9545817145817146
+2025-12-12 22:22:22,613 | INFO | Params: {'n_estimators': 200, 'max_depth': 5, 'criterion': 'entropy'}
+2025-12-12 22:22:22,617 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9085343151243535), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9162139917695473, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9168099900666951)}
+2025-12-12 22:22:22,617 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 2, 'rf_hb': 2, 'svm_random': 3, 'svm_optuna': 1, 'svm_sh': 3, 'svm_hb': 2}
+2025-12-12 22:22:22,617 | INFO | Ronda 16 — Modelo: svm | Método: hb
+2025-12-12 22:22:22,968 | INFO | Score obtenido: 0.966680950665625
+2025-12-12 22:22:22,968 | INFO | Params: {'C': 0.1195588692144345, 'kernel': np.str_('linear')}
+2025-12-12 22:22:22,972 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9085343151243535), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9162139917695473, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9223272938215467)}
+2025-12-12 22:22:22,972 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 2, 'rf_hb': 2, 'svm_random': 3, 'svm_optuna': 1, 'svm_sh': 3, 'svm_hb': 3}
+2025-12-12 22:22:22,973 | INFO | Ronda 17 — Modelo: svm | Método: random
+2025-12-12 22:22:23,024 | INFO | Score obtenido: 0.966680950665625
+2025-12-12 22:22:23,024 | INFO | Params: {'kernel': 'linear', 'C': 0.1}
+2025-12-12 22:22:23,028 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9085343151243535), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9162139917695473, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9223272938215467)}
+2025-12-12 22:22:23,028 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 2, 'rf_hb': 2, 'svm_random': 4, 'svm_optuna': 1, 'svm_sh': 3, 'svm_hb': 3}
+2025-12-12 22:22:23,028 | INFO | Ronda 18 — Modelo: svm | Método: sh
+2025-12-12 22:22:23,108 | INFO | Score obtenido: 0.9664335664335664
+2025-12-12 22:22:23,108 | INFO | Params: {'kernel': 'linear', 'C': 1}
+2025-12-12 22:22:23,113 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9085343151243535), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9162139917695473, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9223272938215467)}
+2025-12-12 22:22:23,113 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 2, 'rf_hb': 2, 'svm_random': 4, 'svm_optuna': 1, 'svm_sh': 4, 'svm_hb': 3}
+2025-12-12 22:22:23,113 | INFO | Ronda 19 — Modelo: svm | Método: random
+2025-12-12 22:22:23,163 | INFO | Score obtenido: 0.966680950665625
+2025-12-12 22:22:23,163 | INFO | Params: {'kernel': 'linear', 'C': 0.1}
+2025-12-12 22:22:23,167 | INFO | Valores actualizados del controlador: {'rf_random': np.float64(0.9166737618844898), 'rf_optuna': 0.9166737618844898, 'rf_sh': np.float64(0.9091634291634292), 'rf_hb': np.float64(0.9085343151243535), 'svm_random': np.float64(0.93336190133125), 'svm_optuna': 0.9162139917695473, 'svm_sh': np.float64(0.9328671328671327), 'svm_hb': np.float64(0.9223272938215467)}
+2025-12-12 22:22:23,167 | INFO | Usos: {'rf_random': 2, 'rf_optuna': 1, 'rf_sh': 2, 'rf_hb': 2, 'svm_random': 5, 'svm_optuna': 1, 'svm_sh': 4, 'svm_hb': 3}
+2025-12-12 22:22:23,167 | INFO | Ganador absoluto: svm con params {'kernel': 'linear', 'C': 0.1}
+2025-12-12 22:22:23,176 | INFO | BEST SCORE FINAL: 0.966680950665625
+2025-12-12 22:22:23,177 | INFO | F1 FINAL TEST: 1.0

@@ -1,0 +1,6 @@
+artifact_location: file:///Users/francoramirez/Documents/Universidad/practica/proyecto_hh/mlruns/544787690412621598
+creation_time: 1765678546069
+experiment_id: '544787690412621598'
+last_update_time: 1765678546069
+lifecycle_stage: active
+name: optuna_baseline_isolated
